@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="人工智能应用与实践期末复习逐考点可视化学习站" />
+  <title>AI 应用与实践 · 逐考点备考站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar" aria-label="站点导航">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <span class="brand-mark">AI</span>
+        <span>逐考点备考站</span>
+      </a>
+      <div class="top-actions">
+        <a href="#lesson" class="nav-link">开始学习</a>
+        <a href="#roadmap" class="nav-link">考点路线</a>
+        <button class="theme-toggle" id="resetProgress" type="button">重置进度</button>
+      </div>
+    </nav>
+
+    <section class="hero-grid" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">人工智能应用与实践 · 期末复习</p>
+        <h1>把课件考点拆成一张能学习的可视化地图</h1>
+        <p class="hero-text">每个考点都按“课件证据 → 课件意图 → 从零讲解 → 考法 → 易错点 → 标准答案 → 自测”展开。不是堆资料，而是让你直接看站点就能学会。</p>
+        <div class="hero-buttons">
+          <a class="primary-btn" href="#lesson">学习当前考点</a>
+          <a class="secondary-btn" href="#exam-panel">看考试怎么考</a>
+        </div>
+      </div>
+      <aside class="score-card" aria-label="学习进度">
+        <span class="score-label">当前批次</span>
+        <strong id="progressCount">0 / 1</strong>
+        <p>全部考点按“生成 → 自审 → 通过后进入下一个”的节奏整理完成；学习进度保存在本机浏览器。</p>
+        <div class="meter" aria-hidden="true"><span id="progressBar"></span></div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="roadmap" id="roadmap" aria-labelledby="roadmap-title">
+      <div class="section-heading">
+        <p class="eyebrow">Roadmap</p>
+        <h2 id="roadmap-title">考点路线</h2>
+        <p>按复习要点逐条展开，每个考点都有课件证据、学习解释、考法、易错点、标准答案和自测。</p>
+      </div>
+      <div class="roadmap-grid" id="roadmapGrid"></div>
+    </section>
+
+    <section class="study-shell" id="lesson" aria-labelledby="lesson-title">
+      <aside class="lesson-sidebar">
+        <label class="search-label" for="lessonSearch">搜索考点</label>
+        <input id="lessonSearch" type="search" placeholder="例如：图灵测试、A*、PCA" />
+        <div class="lesson-list" id="lessonList" role="list"></div>
+      </aside>
+
+      <article class="lesson-card" id="lessonCard">
+        <div class="loading">正在加载考点...</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>只上传整理后的学习网页，不上传原始课件文件。内容会按考点逐步更新。</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
