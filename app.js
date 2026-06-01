@@ -111,15 +111,19 @@ function renderReadyLesson(lesson) {
   `).join("");
 
   const practice = (lesson.practiceItems || []).map((item, index) => `
-    <details class="practice-item">
-      <summary>${index + 1}. ${escapeHtml(item.source || "样例题")} · ${escapeHtml(item.type || "题目")}：${escapeHtml(item.question)}</summary>
-      <div class="details-content">
-        ${item.options ? `<ol class="option-list">${item.options.map((option) => `<li>${escapeHtml(option)}</li>`).join("")}</ol>` : ""}
-        <p><strong>答案：</strong>${escapeHtml(item.answer || "见解析")}</p>
-        <p><strong>放在这里的原因：</strong>${escapeHtml(item.placementReason || "与本考点直接对应。")}</p>
-        ${item.note ? `<p><strong>备注：</strong>${escapeHtml(item.note)}</p>` : ""}
-      </div>
-    </details>
+    <div class="practice-item">
+      <p class="practice-source">${index + 1}. ${escapeHtml(item.source || "样例题")} · ${escapeHtml(item.type || "题目")}</p>
+      <p class="practice-question">${escapeHtml(item.question)}</p>
+      ${item.options && item.options.length ? `<ol class="option-list">${item.options.map((option) => `<li>${escapeHtml(option)}</li>`).join("")}</ol>` : `<p class="source-mini">原题提取文本未包含完整选项。</p>`}
+      <details>
+        <summary>查看答案、解析与归位原因</summary>
+        <div class="details-content">
+          <p><strong>答案：</strong>${escapeHtml(item.answer || "见解析")}</p>
+          <p><strong>放在这里的原因：</strong>${escapeHtml(item.placementReason || "与本考点直接对应。")}</p>
+          ${item.note ? `<p><strong>备注：</strong>${escapeHtml(item.note)}</p>` : ""}
+        </div>
+      </details>
+    </div>
   `).join("");
 
   const review = lesson.review ? `

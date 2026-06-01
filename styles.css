@@ -170,8 +170,13 @@ summary { cursor: pointer; font-weight: 900; padding: 14px 16px; background: okl
 .deep-card { border: 1.5px solid var(--ink); border-radius: 18px; background: oklch(99% 0.018 91); padding: 16px; }
 .deep-card strong { display: block; margin-bottom: 6px; font-size: 18px; }
 .source-mini { color: var(--muted); font-size: 12px; font-weight: 700; margin-left: 8px; }
+.practice-item { border: 1.5px solid var(--ink); border-radius: 18px; background: oklch(99% 0.012 85); padding: 16px; }
+.practice-item details { margin-top: 12px; }
 .practice-item summary { background: oklch(94% 0.045 78); }
+.practice-source { margin: 0 0 8px; color: var(--red); font-weight: 900; }
+.practice-question { margin: 0 0 10px; font-weight: 800; }
 .option-list { margin: 6px 0 10px; padding-left: 1.5em; }
+.option-list li { margin: 4px 0; }
 .image-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
 .image-supplement { margin: 0; border: 1.5px solid var(--ink); border-radius: 18px; background: oklch(99% 0.012 85); overflow: hidden; }
 .image-supplement img { display: block; width: 100%; height: auto; background: white; }

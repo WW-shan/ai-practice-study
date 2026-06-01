@@ -140,37 +140,72 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q1",
         "type": "单选",
-        "question": "标志着人工智能走上人类历史舞台的事件是？",
-        "answer": "B：1955 年 Dartmouth AI 夏季研讨会提议报告。",
-        "placementReason": "考 AI 起源，放在 AI 概念与起源考点。"
+        "question": "标志着人工智能走上人类历史舞台的事件是（ ）",
+        "answer": "B、1955年8月，John McCarthy、Marvin Lee Minsky、Claude Shannon和Nathaniel Rochester提交了一份题为A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence（关于举办达特茅斯人工智能夏季研讨会的提议）的报告中。",
+        "placementReason": "考 AI 起源，放在 AI 概念与起源考点。",
+        "options": [
+          "A、图灵测试模型的提出",
+          "B、1955年8月，John McCarthy、Marvin Lee Minsky、Claude Shannon和Nathaniel Rochester提交了一份题为A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence（关于举办达特茅斯人工智能夏季研讨会的提议）的报告中。",
+          "C、纳什均衡思想的提出",
+          "D、1937年，图灵发表了《论数字计算在决断难题中的应用》论文，提出了图灵机模型。"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q6",
         "type": "单选",
-        "question": "不属于人工智能研究基本内容的是？",
-        "answer": "C：自动化。",
-        "placementReason": "AI 基本内容概念题。"
+        "question": "下面不属于人工智能研究基本内容的是()。",
+        "answer": "C、自动化",
+        "placementReason": "AI 基本内容概念题。",
+        "options": [
+          "A、机器感知",
+          "B、机器学习",
+          "C、自动化",
+          "D、机器思维"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q42",
         "type": "单选",
-        "question": "不属于人工智能研究基本内容的是？",
-        "answer": "C：自动化。",
-        "placementReason": "AI 研究内容概念题。"
+        "question": "下面不属于人工智能研究基本内容的是()。",
+        "answer": "C、自动化",
+        "placementReason": "AI 研究内容概念题。",
+        "options": [
+          "A、机器感知",
+          "B、机器学习",
+          "C、自动化",
+          "D、机器思维"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q50",
         "type": "单选",
-        "question": "哪些不是 AI 概念的正确表述？",
-        "answer": "D：人工智能将其定义为人类智能体的研究。",
-        "placementReason": "AI 定义辨析。"
+        "question": "以下哪些不是人工智能概念的正确表述()",
+        "answer": "D、人工智能将其定义为人类智能体的研究",
+        "placementReason": "AI 定义辨析。",
+        "options": [
+          "A、人工智能是为了开发一类计算机使之能够完成通常由人类所能做的事",
+          "B、人工智能是研究和构建在给定环境下表现良好的智能体程序",
+          "C、人工智能是通过机器或软件展现的智能",
+          "D、人工智能将其定义为人类智能体的研究"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q66",
         "type": "单选",
-        "question": "人工智能是研究、开发用于模拟、延伸和扩展人的什么？",
-        "answer": "A：智能。",
-        "placementReason": "AI 定义原句。"
+        "question": "人工智能是研究、开发用于模拟、延伸和扩展人的()的理论、方法、技术及应用系统的一门新的技术科学。",
+        "answer": "A、智能",
+        "placementReason": "AI 定义原句。",
+        "options": [
+          "A、智能",
+          "B、行为",
+          "C、语言",
+          "D、计算能力"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -277,9 +312,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q15",
         "type": "单选",
-        "question": "图灵测试的含义是？",
-        "answer": "A：隔开人和机器提问，无法确认哪个是机器则通过。",
-        "placementReason": "图灵测试考点。"
+        "question": "图灵测试的含义是()",
+        "answer": "A、图灵测试是测试人在与被测试者一个人和一台机器隔开的情况下，通过一些装置如键盘向被测试者随意提问。问过一些问题后，如果被测试者超过30%的答复不能使测试人确认出哪个是人、哪个是机器的回答，那么这台机器就通过了测试，并被认为具有人类智能。",
+        "placementReason": "图灵测试考点。",
+        "options": [
+          "A、图灵测试是测试人在与被测试者一个人和一台机器隔开的情况下，通过一些装置如键盘向被测试者随意提问。问过一些问题后，如果被测试者超过30%的答复不能使测试人确认出哪个是人、哪个是机器的回答，那么这台机器就通过了测试，并被认为具有人类智能。",
+          "B、所谓的图灵测试就是指一个抽象的机器，它有一条无限长的纸带，纸带分成了一个一个的小方格，每个方格有不同的颜色。有一个机器头在纸带上移来移去。机器头有一组内部状态，还有一些固定的程序。",
+          "C、图灵测试是一种用来混淆的技术，它希望将正常的可识别的信息转变为无法识别的信息。",
+          "D、不存在图灵测试概念"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -627,16 +669,28 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q15",
         "type": "单选",
-        "question": "哪个系统利用课程至少三个方面内容？",
-        "answer": "B：Alpha Go。",
-        "placementReason": "AlphaGo 综合搜索、深度学习、强化学习等。"
+        "question": "本课程主要讲授了逻辑推理、搜索求解、监督学习、非监督学习、深度学习、强化学习和博弈对抗七个方面的内容。下面哪一个系统利用了上述内容中至少三个（含三个）方面的内容（ ）",
+        "answer": "B、Alpha Go",
+        "placementReason": "AlphaGo 综合搜索、深度学习、强化学习等。",
+        "options": [
+          "A、Word2Vec词向量生成",
+          "B、Alpha Go",
+          "C、基于卷积神经网络的手写体图像识别",
+          "D、基于特征人脸的人脸识别"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "浙大样例题 Q19",
         "type": "判断",
-        "question": "2016 年 AlphaGo 只是通过无监督学习机制训练。",
-        "answer": "B：错误。",
-        "placementReason": "AlphaGo 使用监督学习、强化学习、深度学习和搜索。"
+        "question": "从是否利用了样本的标注信息而言，2016年战胜李世石的Alpha Go只是通过无监督学习机制来训练的。",
+        "answer": "B、",
+        "placementReason": "AlphaGo 使用监督学习、强化学习、深度学习和搜索。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -947,9 +1001,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q3",
         "type": "单选",
-        "question": "若 a->b 为真，哪个命题一定为真？",
-        "answer": "C：该命题的逆否命题。",
-        "placementReason": "考蕴含与逆否命题等价。"
+        "question": "如果一个表示蕴含关系的符合命题是真命题（即 a-> b 是真命题），则下面哪个命题一定是真命题（ ）",
+        "answer": "C、该命题的逆否命题",
+        "placementReason": "考蕴含与逆否命题等价。",
+        "options": [
+          "A、该命题的反命题（b->a）",
+          "B、命题a",
+          "C、该命题的逆否命题",
+          "D、命题b"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -1646,9 +1707,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q4",
         "type": "单选",
-        "question": "贪婪最佳优先搜索和 A* 都需要的辅助信息是？",
-        "answer": "C：任意城市与目标城市之间的直线距离。",
-        "placementReason": "考启发函数 h(n)。"
+        "question": "在本课程所介绍的贪婪最佳优先搜索和A*搜索中，都需要用到的辅助信息是（ ）",
+        "answer": "C、任意一个城市与目标城市之间的直线距离",
+        "placementReason": "考启发函数 h(n)。",
+        "options": [
+          "A、搜索空间中城市的个数",
+          "B、搜索空间中城市的天气状况",
+          "C、任意一个城市与目标城市之间的直线距离",
+          "D、任意一个城市与始点城市之间的直线距离"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -1771,9 +1839,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q5",
         "type": "单选",
-        "question": "Alpha-Beta 剪枝搜索描述不正确的是？",
-        "answer": "A：节点位置先后次序不会影响搜索效率。",
-        "placementReason": "节点顺序会影响剪枝效率，放在 Alpha-Beta 概念。"
+        "question": "下面对Alpha-Beta剪枝搜索描述不正确的是（ ）",
+        "answer": "A、搜索树中节点的位置先后次序不会影响搜索效率",
+        "placementReason": "节点顺序会影响剪枝效率，放在 Alpha-Beta 概念。",
+        "options": [
+          "A、搜索树中节点的位置先后次序不会影响搜索效率",
+          "B、是一种对抗搜索",
+          "C、被剪枝的节点不会影响搜索结果",
+          "D、与minimax搜索算法相比，可减少所搜索的搜索树节点数"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -2067,16 +2142,30 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q1",
         "type": "单选",
-        "question": "哪个库不属于大数据分析和处理的三剑客？",
-        "answer": "A：seaborn。",
-        "placementReason": "考 Python 库用途。"
+        "question": "哪个库不属于大数据分析和处理的三剑客。",
+        "answer": "A、seaborn",
+        "placementReason": "考 Python 库用途。",
+        "options": [
+          "A、seaborn",
+          "B、pandas",
+          "C、numpy",
+          "D、matplotlib"
+        ],
+        "rawAnswer": "A"
       },
       {
         "source": "网络样例题 Q46",
         "type": "单选",
-        "question": "matplotlib 的作用是？",
-        "answer": "C：制作图表。",
-        "placementReason": "可视化库。"
+        "question": "第三方库matplotlib 的作用是。",
+        "answer": "C、制作图表",
+        "placementReason": "可视化库。",
+        "options": [
+          "A、进行科学计算",
+          "B、数据可视化",
+          "C、制作图表",
+          "D、人工智慧预测"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -2200,10 +2289,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q5",
         "type": "单选",
-        "question": "关于归一化不正确的是？",
-        "answer": "资料答案：B。",
+        "question": "下列叙述中关于归一化不正确的是()",
+        "answer": "B、归一化后，所有元素值范围在0,1",
         "placementReason": "归一化/标准化考点。",
-        "options": "网络题答案与常规定义不完全一致；本课按课件重点记：归一化和标准化要区分。"
+        "options": [
+          "A、归一化后，所有元素和为1",
+          "B、归一化后，所有元素值范围在0,1",
+          "C、归一化后，所有元素值范围在0,1]",
+          "D、归一化也被称为标准化"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -2320,31 +2415,58 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q3",
         "type": "单选",
-        "question": "有特征、有部分标签的机器学习属于？",
-        "answer": "B：半监督学习。",
-        "placementReason": "补充机器学习类型。"
+        "question": "有特征，有部分标签的机器学习属于()。",
+        "answer": "B、半监督学习",
+        "placementReason": "补充机器学习类型。",
+        "options": [
+          "A、监督学习",
+          "B、半监督学习",
+          "C、无监督学习",
+          "D、强化学习"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q10",
         "type": "单选",
-        "question": "AI、机器学习、深度学习三者关系正确的是？",
-        "answer": "C。",
-        "placementReason": "考 AI/ML/DL 层级关系。"
+        "question": "人工智能(AI)、机器学习、深度学习三者关系论述正确的是()",
+        "answer": "C、人工智能是一门研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用的新的交叉学科，机器学习是人工智能的核心研究邻域之一，深度学习是机器学习的新领域，研究多隐层多感知器、模拟人脑进行分析学习的人工神经网络。",
+        "placementReason": "考 AI/ML/DL 层级关系。",
+        "options": [
+          "A、人工智能研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用，属于一门独立的技术学科。",
+          "B、机器学习专门研究计算机怎样模拟人类的学习行为，以获取新的知识和技能，重新组织已有的知识结构以完善自身的性能，但是机器学习能力并非AI 系统所必须的。",
+          "C、人工智能是一门研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用的新的交叉学科，机器学习是人工智能的核心研究邻域之一，深度学习是机器学习的新领域，研究多隐层多感知器、模拟人脑进行分析学习的人工神经网络。",
+          "D、深度学习方法研究人工神经网络的单层感知器学习结构。"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q45",
         "type": "单选",
-        "question": "机器学习中的从数据中学习通常不包含？",
-        "answer": "资料答案：B：强化学习。",
+        "question": "机器学习中的从数据中学习通常不包含有()。",
+        "answer": "B、强化学习",
         "placementReason": "机器学习范畴补充。",
-        "options": "本课程复习要点明确把强化学习作为机器学习/AI 重要内容单列；考试本课时优先按课件。"
+        "options": [
+          "A、监督学习",
+          "B、强化学习",
+          "C、非监督学习",
+          "D、半监督学习"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q63",
         "type": "单选",
-        "question": "机器学习主要特点是？",
-        "answer": "A：通过算法从大数据中学习如何完成任务。",
-        "placementReason": "机器学习概念。"
+        "question": "机器学习的主要特点是。",
+        "answer": "A、通过各种算法从大数据中学习如何完成任务",
+        "placementReason": "机器学习概念。",
+        "options": [
+          "A、通过各种算法从大数据中学习如何完成任务",
+          "B、像人一样开展自主学习",
+          "C、具有人类神经网络的功能",
+          "D、能对真实世界中的事件做出决策和预测"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -2466,37 +2588,72 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q2",
         "type": "单选",
-        "question": "前者和后者之间存在真子集关系的是？",
-        "answer": "B：监督学习、机器学习。",
-        "placementReason": "考监督学习属于机器学习的子集。"
+        "question": "下面两个单词短语中，前者和后者之间存在真子集关系的是（ ）",
+        "answer": "B、监督学习、机器学习",
+        "placementReason": "考监督学习属于机器学习的子集。",
+        "options": [
+          "A、人工智能、机器学习",
+          "B、监督学习、机器学习",
+          "C、机器学习、深度学习",
+          "D、监督学习、无监督学习"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q13",
         "type": "单选",
-        "question": "不能对给定样本进行分类的是？",
-        "answer": "C：梯度下降算法。",
-        "placementReason": "梯度下降是优化方法，不是分类器。"
+        "question": "下列算法中，不能够对给定样本进行分类的是()。",
+        "answer": "C、梯度下降算法",
+        "placementReason": "梯度下降是优化方法，不是分类器。",
+        "options": [
+          "A、决策树算法",
+          "B、逻辑回归算法",
+          "C、梯度下降算法",
+          "D、神经网络"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q20",
         "type": "单选",
-        "question": "分类器测试的作用是？",
-        "answer": "D：检验分类器的效果。",
-        "placementReason": "监督分类流程。"
+        "question": "分类器测试的作用是",
+        "answer": "D、检验分类器的效果",
+        "placementReason": "监督分类流程。",
+        "options": [
+          "A、获得检测目标的分类",
+          "B、判断测试集样本选择是否合适",
+          "C、判断测试集样本标注是否合适",
+          "D、检验分类器的效果"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q51",
         "type": "单选",
-        "question": "分类器构造和实施步骤描述错误的是？",
-        "answer": "C：在训练样本上执行分类模型生成预测结果。",
-        "placementReason": "预测评估应在测试集上做。"
+        "question": "有关分类器的构造和实施步骤描述错误的是：()",
+        "answer": "C、在训练样本上执行分类模型，生成预测结果",
+        "placementReason": "预测评估应在测试集上做。",
+        "options": [
+          "A、选定样本，将所有样本分成训练样本和测试样本两部分",
+          "B、在训练样本上执行分类器算法，生成分类模型",
+          "C、在训练样本上执行分类模型，生成预测结果",
+          "D、根据预测结果，计算必要的评估指标，评估分类模型的性能。"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q53",
         "type": "单选",
-        "question": "把样本所属类型和样本对应起来称为？",
-        "answer": "C：标注。",
-        "placementReason": "监督学习标签。"
+        "question": "把样本所属的类型和样本实现对应起来被称为()",
+        "answer": "C、标注",
+        "placementReason": "监督学习标签。",
+        "options": [
+          "A、测试",
+          "B、训练",
+          "C、标注",
+          "D、分类"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -2618,31 +2775,58 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q9",
         "type": "单选",
-        "question": "寻找数据相似性并划分组的方法称为？",
-        "answer": "D：聚类。",
-        "placementReason": "聚类定义。"
+        "question": "寻找数据之间的相似性并将之划分组的方法称为()。",
+        "answer": "D、聚类",
+        "placementReason": "聚类定义。",
+        "options": [
+          "A、分组",
+          "B、分类",
+          "C、回归",
+          "D、聚类"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q11",
         "type": "单选",
-        "question": "关联规则中置信度的含义是？",
-        "answer": "资料答案：C；概念校正更接近 D。",
+        "question": "关联规则中置信度的含义是。",
+        "answer": "C、规则出现的概率",
         "placementReason": "关联规则属于无监督补充。",
-        "options": "该网络题疑似把支持度/置信度混淆；考试若考标准定义，置信度是 P(后项|前项)。"
+        "options": [
+          "A、物品频繁出现的概率",
+          "B、一个物品的销售数量对另一个物品的影响",
+          "C、规则出现的概率",
+          "D、两个物品同时出现的频次与前一个物品出现频次的比例"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q43",
         "type": "单选",
-        "question": "有特征、无标签的机器学习是？",
-        "answer": "C：无监督学习。",
-        "placementReason": "无监督定义。"
+        "question": "有特征，无标签的机器学习是()。",
+        "answer": "C、无监督学习",
+        "placementReason": "无监督定义。",
+        "options": [
+          "A、监督学习",
+          "B、半监督学习",
+          "C、无监督学习",
+          "D、强化学习"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q61",
         "type": "单选",
-        "question": "无监督学习可完成什么任务？",
-        "answer": "C：聚类。",
-        "placementReason": "无监督学习任务。"
+        "question": "无监督学习可完成什么任务()",
+        "answer": "C、聚类",
+        "placementReason": "无监督学习任务。",
+        "options": [
+          "A、分类",
+          "B、回归",
+          "C、聚类",
+          "D、分类、回归、聚类"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -2764,9 +2948,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q12",
         "type": "单选",
-        "question": "哪个方法不是用于计算相似度？",
-        "answer": "C：均方根误差 RMSE。",
-        "placementReason": "相似度公式考点。"
+        "question": "下列哪个方法不是用于计算相似度的。",
+        "answer": "C、均方根误差RMSE",
+        "placementReason": "相似度公式考点。",
+        "options": [
+          "A、欧式距离",
+          "B、皮尔逊相关系数",
+          "C、均方根误差RMSE",
+          "D、余弦向量"
+        ],
+        "rawAnswer": "C"
       }
     ]
   },
@@ -2888,16 +3079,30 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q7",
         "type": "单选",
-        "question": "期望风险和经验风险描述正确的是？",
-        "answer": "D：期望风险是真实分布期望损失，经验风险是训练样本平均损失。",
-        "placementReason": "考损失、风险和统计学习。"
+        "question": "下面对期望风险和经验风险描述正确的是（ ）",
+        "answer": "D、期望风险指模型关于联合分布期望损失，经验风险指模型关于训练样本集平均损失",
+        "placementReason": "考损失、风险和统计学习。",
+        "options": [
+          "A、在有监督学习的训练过程中，经验风险小和期望风险大被称为欠学习",
+          "B、经验风险指模型关于联合分布期望损失，期望风险指模型关于训练样本集平均损失",
+          "C、在有监督学习的训练过程中，经验风险大和期望风险大被称为过学习",
+          "D、期望风险指模型关于联合分布期望损失，经验风险指模型关于训练样本集平均损失"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q14",
         "type": "单选",
-        "question": "梯度下降法的目标是？",
-        "answer": "B：寻找损失函数的最小值。",
-        "placementReason": "损失和优化考点。"
+        "question": "梯度下降法的目标是。",
+        "answer": "B、寻找损失函数的最小值",
+        "placementReason": "损失和优化考点。",
+        "options": [
+          "A、尽快完成模型训练",
+          "B、寻找损失函数的最小值",
+          "C、提供算法效率",
+          "D、提高模型性能"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -3130,9 +3335,15 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q20",
         "type": "判断",
-        "question": "GAN 中生成网络区别真伪，判别网络产生虚拟数据。",
-        "answer": "B：错误。",
-        "placementReason": "原文未显示答案；按概念判断：生成器产生数据，判别器辨别真伪。"
+        "question": "生成对抗网络中包含生成网络和判别网络两个神经网络，前者用来区别样本的真伪、后者用来产生虚拟数据。",
+        "answer": "B、",
+        "placementReason": "原文未显示答案；按概念判断：生成器产生数据，判别器辨别真伪。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "rawAnswer": "B",
+        "note": "原提取文本未显示正确答案；按 GAN 概念判断该表述错误。"
       }
     ]
   },
@@ -3254,16 +3465,30 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q8",
         "type": "单选",
-        "question": "线性回归描述不正确的是？",
-        "answer": "D：线性回归模型训练是非监督学习方法。",
-        "placementReason": "线性回归是监督学习。"
+        "question": "下面对线性回归描述不正确的是（ ）",
+        "answer": "D、线性回归模型的训练是一种非监督学习方法",
+        "placementReason": "线性回归是监督学习。",
+        "options": [
+          "A、线性回归模型的训练优化目标是最小化残差平方和的均值",
+          "B、线性回归可用来分析不同变量之间存在的线性关系",
+          "C、线性回归可用来进行分析预测，即给定一个变量的取值，去预测另外一个变量的取值",
+          "D、线性回归模型的训练是一种非监督学习方法"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q64",
-        "type": "计算/单选",
-        "question": "线性回归方程 y=0.849x-85.712，x=172 时预测体重？",
-        "answer": "B：约 60.316kg。",
-        "placementReason": "线性回归计算。"
+        "type": "单选",
+        "question": "从某中学随机选取8名男生，其身高x(cm)和体重y(kg)的线性回归方程为 y=0.849x-85.712,则身高172cm 的男学生，又回归方程可以预报其体重()。",
+        "answer": "B、约为60.316kg",
+        "placementReason": "线性回归计算。",
+        "options": [
+          "A、为60.316kg",
+          "B、约为60.316kg",
+          "C、大于60.316kg",
+          "D、小于60.316kg"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -3387,16 +3612,30 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q16",
         "type": "单选",
-        "question": "关于聚类说法正确的是？",
-        "answer": "D：聚类质心就是各簇群特征的平均值。",
-        "placementReason": "K-means 中心更新。"
+        "question": "关于聚类说法正确是。",
+        "answer": "D、聚类质心就是各簇群特征的平均值",
+        "placementReason": "K-means 中心更新。",
+        "options": [
+          "A、聚类样本一定要有标签",
+          "B、应该将所有特征数据作为聚类依据",
+          "C、聚类的k 值可以随意指定",
+          "D、聚类质心就是各簇群特征的平均值"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q41",
         "type": "单选",
-        "question": "K 均值聚类算法属于？",
-        "answer": "B：无监督学习。",
-        "placementReason": "K-means 考点。"
+        "question": "K均值聚类算法，属于()。",
+        "answer": "B、无监督学习",
+        "placementReason": "K-means 考点。",
+        "options": [
+          "A、监督学习",
+          "B、无监督学习",
+          "C、半监督学习",
+          "D、强化学习"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -3520,9 +3759,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q10",
         "type": "单选",
-        "question": "PCA 和特征人脸描述不正确的是？",
-        "answer": "D：原始 n*n 人脸图像，特征人脸维度是其一半。",
-        "placementReason": "考 PCA/特征脸降维，不是简单一半。"
+        "question": "下面对主成分分析和特征人脸描述不正确的是（ ）",
+        "answer": "D、假设原始灰度人脸图像维度是n*n，则特征人脸的维度是其一半",
+        "placementReason": "考 PCA/特征脸降维，不是简单一半。",
+        "options": [
+          "A、在主成份分析的降维过程中，尽可能将数据向方差最大方向进行投影，使得数据所蕴含信息没有丢失，彰显个性",
+          "B、主成份分析方法是一种保证数据被投影后方差最大的特征降维方法",
+          "C、特征人脸方法是一种应用主成份分析来实现人脸图像降维的方法，其本质是用一种称为“特征人脸(eigenface)”的特征向量按照线性组合形式来表达每一张原始人脸图像，进而实现人脸识别",
+          "D、假设原始灰度人脸图像维度是n*n，则特征人脸的维度是其一半"
+        ],
+        "rawAnswer": "D"
       }
     ]
   },
@@ -3986,9 +4232,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q47",
         "type": "单选",
-        "question": "BP 算法的直接作用是？",
-        "answer": "B：加快/训练权值参数和偏置参数。",
-        "placementReason": "BP 用于训练参数。"
+        "question": "对于多层神经网络，BP (反向传播)算法的直接作用是()。",
+        "answer": "B、加快训练权值参数和偏置参数",
+        "placementReason": "BP 用于训练参数。",
+        "options": [
+          "A、提供训练集、测试集样本",
+          "B、加快训练权值参数和偏置参数",
+          "C、提高神经网络特征表示精确度",
+          "D、科学评价训练模型"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -4111,45 +4364,87 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q11",
         "type": "单选",
-        "question": "CNN 相比前馈网络还需要自动优化的参数是？",
-        "answer": "C：卷积矩阵（卷积核）。",
-        "placementReason": "考 CNN 可学习参数。"
+        "question": "在多层神经网络学习中，基于标注大数据，通过误差反馈来自动优化神经网络的参数。与多层前馈神经网络相比，卷积神经网络还需要自动优化的参数是（ ）",
+        "answer": "C、卷积矩阵（卷积核）",
+        "placementReason": "考 CNN 可学习参数。",
+        "options": [
+          "A、网络层数",
+          "B、目标函数",
+          "C、卷积矩阵（卷积核）",
+          "D、输入端和输出端的维数"
+        ],
+        "rawAnswer": "C"
       },
       {
-        "source": "网络样例题 Q18",
+        "source": "网络样例题 Q18a",
         "type": "单选",
-        "question": "深度学习可以具有几个隐藏层？",
-        "answer": "资料答案：B。",
-        "placementReason": "放在深度网络层数考点。",
-        "options": "网络题表述较旧；本课课件强调深度模型有更多层，通常多个隐藏层。"
+        "question": "深度学习可以具有几个隐藏层()。",
+        "answer": "B、2个",
+        "placementReason": "放在深度网络层数/DNN 考点。",
+        "options": [
+          "A、1个",
+          "B、2个",
+          "C、3个",
+          "D、4个"
+        ],
+        "rawAnswer": "B",
+        "note": "原题编号显示为 18；为避免与后面“多分类”题重复，记为 Q18a。"
       },
       {
         "source": "网络样例题 Q19",
         "type": "单选",
-        "question": "CNN 中用来完成分类的是？",
-        "answer": "C：全连接层。",
-        "placementReason": "CNN 结构补充。"
+        "question": "CNN 中用来完成分类的是",
+        "answer": "C、全连接层",
+        "placementReason": "CNN 结构补充。",
+        "options": [
+          "A、卷积层",
+          "B、池化层",
+          "C、全连接层",
+          "D、ReLU 函数"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q21",
         "type": "单选",
-        "question": "深度神经网络与基本神经网络区别是？",
-        "answer": "C：隐含层个数不同。",
-        "placementReason": "DNN 层数考点。"
+        "question": "深度神经网络与基本神经网络的区别是。",
+        "answer": "C、隐含层个数不同",
+        "placementReason": "DNN 层数考点。",
+        "options": [
+          "A、输入层节点数不同",
+          "B、输出层节点数不同",
+          "C、隐含层个数不同",
+          "D、激活函数不同"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q44",
         "type": "单选",
-        "question": "何种情况下神经网络被称为深度学习模型？",
-        "answer": "A：加入更多层，使网络层数增加。",
-        "placementReason": "深度网络层数。"
+        "question": "在何种情况下神经网络模型被称为深度学习模型()。",
+        "answer": "A、加入更多层，使神经网络的层数增加",
+        "placementReason": "深度网络层数。",
+        "options": [
+          "A、加入更多层，使神经网络的层数增加",
+          "B、有维度更高的数据",
+          "C、当这是一个图形识别问题时",
+          "D、以上都不正确"
+        ],
+        "rawAnswer": "A"
       },
       {
         "source": "网络样例题 Q54",
         "type": "单选",
-        "question": "图像识别成功率提升的主要因素有？",
-        "answer": "A：计算力提升。",
-        "placementReason": "深度学习发展条件补充。"
+        "question": "发展出图像识别成功率超越人类的人工智能的主要因素有()。",
+        "answer": "A、计算力的提升",
+        "placementReason": "深度学习发展条件补充。",
+        "options": [
+          "A、计算力的提升",
+          "B、资金的投入",
+          "C、社会关注度提升",
+          "D、人类专家规则的完善"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -4271,23 +4566,44 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q12",
         "type": "单选",
-        "question": "卷积操作描述不正确的是？",
-        "answer": "A：卷积矩阵参数手工事先指定且图像间不共享。",
-        "placementReason": "卷积核参数由训练学习且权值共享。"
+        "question": "卷积操作是卷积神经网络的一个重要功能，下面对卷积操作描述不正确的是（ ）",
+        "answer": "A、卷积矩阵中的参数是手工事先指定的、且每幅图像之间不共享",
+        "placementReason": "卷积核参数由训练学习且权值共享。",
+        "options": [
+          "A、卷积矩阵中的参数是手工事先指定的、且每幅图像之间不共享",
+          "B、高斯卷积操作的结果是使得图像变得平滑（模糊）",
+          "C、卷积操作利用了图像中像素点存在空间相关性的特点",
+          "D、卷积操作结果可认为是保留了像素点所构成的特定空间分布模式"
+        ],
+        "rawAnswer": "A"
       },
       {
         "source": "网络样例题 Q7",
         "type": "单选",
-        "question": "卷积神经网络的主要特点是具有？",
-        "answer": "C：卷积操作。",
-        "placementReason": "CNN 卷积层核心。"
+        "question": "卷积神经网络的主要特点是具有。",
+        "answer": "C、卷积操作",
+        "placementReason": "CNN 卷积层核心。",
+        "options": [
+          "A、池化层",
+          "B、全连接层",
+          "C、卷积操作",
+          "D、多层隐含层"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q22",
         "type": "单选",
-        "question": "关于卷积层说法错误的是？",
-        "answer": "B：卷积核参数值是人为指定的。",
-        "placementReason": "卷积核参数是学习得到。"
+        "question": "关于卷积层的说法，错误的是",
+        "answer": "B、卷积核的参数值是人为指定的",
+        "placementReason": "卷积核参数是学习得到。",
+        "options": [
+          "A、卷积核的尺寸是由人为指定的",
+          "B、卷积核的参数值是人为指定的",
+          "C、卷积层可以作为神经网络的隐藏层",
+          "D、特征图是为卷积层的最终输出"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -4405,9 +4721,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q48",
         "type": "单选",
-        "question": "池化层的作用不包括？",
-        "answer": "D：实现特征分类。",
-        "placementReason": "池化不负责分类。"
+        "question": "池化层的作用不包括",
+        "answer": "D、实现特征分类",
+        "placementReason": "池化不负责分类。",
+        "options": [
+          "A、解决卷积计算量过大的问题",
+          "B、降低特征图的分辨率",
+          "C、实现不同尺度特征的提取",
+          "D、实现特征分类"
+        ],
+        "rawAnswer": "D"
       }
     ]
   },
@@ -4866,9 +5189,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q13",
         "type": "单选",
-        "question": "强化学习中如何得到最优策略？",
-        "answer": "A：每步选择使未来反馈期望最大的动作。",
-        "placementReason": "考长期期望回报，不是即时奖励。"
+        "question": "在强化学习中，可以通过如下操作得到一个最优的策略（ ）",
+        "answer": "A、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在未来可获得反馈值的最大期望。",
+        "placementReason": "考长期期望回报，不是即时奖励。",
+        "options": [
+          "A、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在未来可获得反馈值的最大期望。",
+          "B、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，马上获得最大反馈值",
+          "C、在每一步中，当位于当前状态时，总是随机采取一个动作",
+          "D、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在到达终止状态时，该终止状态可获得最大期望。"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -5329,9 +5659,16 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q60",
         "type": "单选",
-        "question": "AI 研发和应用政策应把什么置于核心？",
-        "answer": "B：人。",
-        "placementReason": "AI 安全/伦理补充。"
+        "question": "人工智能的研发和应用的政策，应该将()置于核心位置。",
+        "answer": "B、人",
+        "placementReason": "AI 安全/伦理补充。",
+        "options": [
+          "A、道德",
+          "B、人",
+          "C、资本",
+          "D、隐私"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -5470,58 +5807,116 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q2",
         "type": "单选",
-        "question": "不属于自然语言处理核心环节的是？",
-        "answer": "D：语音语义识别。",
-        "placementReason": "放在 NLP 应用考点。"
+        "question": "不属于自然语言处理的核心环节的是()",
+        "answer": "D、语音语义识别",
+        "placementReason": "放在 NLP 应用考点。",
+        "options": [
+          "A、知识的获取与表达",
+          "B、自然语言理解",
+          "C、自然语言生成",
+          "D、语音语义识别"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "网络样例题 Q4",
         "type": "单选",
-        "question": "哪种神经网络更适合自然语言处理？",
-        "answer": "B：RNN。",
-        "placementReason": "放在 NLP/RNN 内容下。"
+        "question": "列哪一个神经网络模型更适合于自然语言处理",
+        "answer": "B、循环神经网络RNN",
+        "placementReason": "放在 NLP/RNN 内容下。",
+        "options": [
+          "A、卷积神经网络CNN",
+          "B、循环神经网络RNN",
+          "C、BP神经网络模型",
+          "D、Hopfield 神经网格模型"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q17",
         "type": "单选",
-        "question": "买《机器学习》后平台可能推荐哪本书？",
-        "answer": "A：《人工智能》。",
-        "placementReason": "推荐系统应用，基于相似性/关联。"
+        "question": "当消费者A 购买了《机器学习》的书籍后，购物平台可能会优先推荐该消费者购买如下哪本书籍()。",
+        "answer": "A、《人工智能》",
+        "placementReason": "推荐系统应用，基于相似性/关联。",
+        "options": [
+          "A、《人工智能》",
+          "B、《三体》",
+          "C、《英汉词典》",
+          "D、《论语》"
+        ],
+        "rawAnswer": "A"
       },
       {
         "source": "网络样例题 Q18b",
         "type": "单选",
-        "question": "两种以上的分类问题称为？",
-        "answer": "B：多分类。",
-        "placementReason": "分类应用。"
+        "question": "两种以上(不含两种)的分类问题被称为()。",
+        "answer": "B、多分类",
+        "placementReason": "多分类属于 AI 应用中的分类任务。",
+        "options": [
+          "A、二分类",
+          "B、多分类",
+          "C、分类器",
+          "D、归一化"
+        ],
+        "rawAnswer": "B",
+        "note": "原题编号也显示为 18；为避免与前面“深度学习隐藏层”题重复，记为 Q18b。"
       },
       {
         "source": "网络样例题 Q52",
         "type": "单选",
-        "question": "不属于家中 AI 产品的是？",
-        "answer": "C：声控灯。",
-        "placementReason": "AI 应用辨析。"
+        "question": "不属于家中的人工智能产品的有()。",
+        "answer": "C、声控灯",
+        "placementReason": "AI 应用辨析。",
+        "options": [
+          "A、智能音箱",
+          "B、扫地机器人",
+          "C、声控灯",
+          "D、个人语音助手"
+        ],
+        "rawAnswer": "C"
       },
       {
         "source": "网络样例题 Q62",
         "type": "单选",
-        "question": "以下哪个不是图像基本运算？",
-        "answer": "B：块运算。",
-        "placementReason": "计算机视觉应用补充。"
+        "question": "以下那个不是图像的基本运算",
+        "answer": "B、块运算",
+        "placementReason": "计算机视觉应用补充。",
+        "options": [
+          "A、点运算",
+          "B、块运算",
+          "C、代数运算",
+          "D、逻辑运算"
+        ],
+        "rawAnswer": "B"
       },
       {
         "source": "网络样例题 Q65",
         "type": "单选",
-        "question": "计算机显示器使用的颜色模型是？",
-        "answer": "D：RGB。",
-        "placementReason": "CV 基础补充；原文未显示答案，按常识判断。"
+        "question": "计算机显示器使用的颜色模型是",
+        "answer": "D、RGB",
+        "placementReason": "CV 基础补充；原文未显示答案，按常识判断。",
+        "options": [
+          "A、HSV",
+          "B、CMYK",
+          "C、YUV",
+          "D、RGB"
+        ],
+        "rawAnswer": "D",
+        "note": "原提取文本未显示答案；按常识和选项判断为 RGB。"
       },
       {
         "source": "网络样例题 Q67",
         "type": "单选",
-        "question": "OpenCV 主要应用领域是？",
-        "answer": "A：计算机视觉和机器学习。",
-        "placementReason": "CV 工具补充。"
+        "question": "OpenCV 库主要应用领域的人工智能开发。",
+        "answer": "A、计算机视觉和机器学习",
+        "placementReason": "CV 工具补充。",
+        "options": [
+          "A、计算机视觉和机器学习",
+          "B、人脸识别",
+          "C、深度神经网络",
+          "D、图像处理"
+        ],
+        "rawAnswer": "A"
       }
     ]
   },
@@ -5624,9 +6019,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q6",
         "type": "单选",
-        "question": "MCTS 描述不正确的是？",
-        "answer": "B：是一种穷举式枚举的搜索方法。",
-        "placementReason": "MCTS 是采样搜索，不是穷举。"
+        "question": "下面对蒙特卡洛树搜索描述不正确的是（ ）",
+        "answer": "B、是一种穷举式枚举的搜索方法",
+        "placementReason": "MCTS 是采样搜索，不是穷举。",
+        "options": [
+          "A、是一种基于采样的搜索方法",
+          "B、是一种穷举式枚举的搜索方法",
+          "C、其包含了选举、扩展、模拟和反向传播四个步骤",
+          "D、是将上限置信区间算法（UCB）应用于游戏树的搜索方法"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -5727,9 +6129,16 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q14",
         "type": "单选",
-        "question": "博弈论和纳什均衡描述不正确的是？",
-        "answer": "B：纳什均衡是一种最优局势。",
-        "placementReason": "纳什均衡是稳定局势，不一定最优。"
+        "question": "下面对博弈论和纳什均衡描述不正确的是（ ）",
+        "answer": "B、纳什均衡是一种最优局势",
+        "placementReason": "纳什均衡是稳定局势，不一定最优。",
+        "options": [
+          "A、纳什均衡不一定是一种最优局势",
+          "B、纳什均衡是一种最优局势",
+          "C、囚徒困境是一种纳什均衡",
+          "D、纳什均衡是一种稳定局势"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -5842,16 +6251,28 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q9",
         "type": "单选",
-        "question": "Boosting 描述不正确的是？",
-        "answer": "D：每一轮迭代均会更改每个弱分类器的权重。",
-        "placementReason": "考 Boosting/AdaBoost 权重机制。"
+        "question": "下面对提升算法（Boosting）描述不正确的是（ ）",
+        "answer": "D、提升算法在每一轮迭代学习中均会更改每个弱分类器的权重",
+        "placementReason": "考 Boosting/AdaBoost 权重机制。",
+        "options": [
+          "A、提升算法基于概率近似正确 (probably approximately correct, PAC）理论，即如果已经发现了“弱学习算法”，可将其提升（boosting）为“强学习算法”",
+          "B、提升算法在每一轮迭代学习中均会更改每个数据的权重",
+          "C、提升算法将若干个弱分类器(weak classifiers)组合起来，形成一个强分类器(strong classifier)",
+          "D、提升算法在每一轮迭代学习中均会更改每个弱分类器的权重"
+        ],
+        "rawAnswer": "D"
       },
       {
         "source": "浙大样例题 Q18",
         "type": "判断",
-        "question": "AdaBoost 中当前弱分类器分错样本则减少该样本权重，否则增大权重。",
-        "answer": "B：错误。",
-        "placementReason": "错分样本权重应增加。"
+        "question": "在Ada Boosting算法中，如果某个样本无法被当前弱分类器分类成功，则减少该样本权重，否则增大该样本权重。",
+        "answer": "B、",
+        "placementReason": "错分样本权重应增加。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "rawAnswer": "B"
       }
     ]
   },
@@ -5952,11 +6373,1136 @@ window.LESSONS = [
       {
         "source": "网络样例题 Q49",
         "type": "单选",
-        "question": "SVM 的最优分界面由什么决定？",
-        "answer": "A：支持向量。",
-        "placementReason": "SVM 补充考点。"
+        "question": "SVM 的最优分界面是由决定的。",
+        "answer": "A、支持向量",
+        "placementReason": "SVM 补充考点。",
+        "options": [
+          "A、支持向量",
+          "B、所有样本",
+          "C、多数样本",
+          "D、少数样本"
+        ],
+        "rawAnswer": "A"
       }
     ]
+  },
+  {
+    "id": "bank-zju-full",
+    "status": "ready",
+    "chapter": "完整题库",
+    "order": "98.1",
+    "title": "完整题库：浙大网络课程样例题",
+    "subtitle": "整套原题按提取文本完整放入，适合集中刷题；同一题也已放入对应考点。",
+    "sourceEvidence": [
+      {
+        "ref": "2 浙大网络课程的样例题目.docx.txt",
+        "quote": "完整收录 20 道可提取题目。"
+      }
+    ],
+    "intent": [
+      "集中刷题视图，避免只在各考点中分散查找。",
+      "题目仍然保留来源、选项和答案。"
+    ],
+    "learning": [
+      {
+        "heading": "怎么使用这个题库",
+        "body": [
+          "先按考点学习，再到这里按整套题刷；错题回到对应考点复习。"
+        ],
+        "bullets": [
+          "完整题干。",
+          "完整选项。",
+          "答案和必要备注。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "刷题",
+        "question": "本页用于集中练习样例题。",
+        "answer": "做完后回到对应考点查解析。"
+      }
+    ],
+    "traps": [
+      "网络样例题个别答案与标准概念可能不一致，已在备注中标出。",
+      "截断题只保留可见文本，不编造题干。"
+    ],
+    "answers": [
+      {
+        "title": "刷题建议",
+        "text": "先遮住答案做题，再展开答案；不会的题回对应考点学习。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "完整题库的作用是什么？",
+        "options": [
+          "集中刷题",
+          "替代所有课件",
+          "删除考点"
+        ],
+        "correct": 0,
+        "explain": "题库用于练习，考点页用于学习。"
+      }
+    ],
+    "pptDeepDive": [
+      {
+        "title": "题库来源",
+        "points": [
+          "2 浙大网络课程的样例题目.docx.txt"
+        ]
+      }
+    ],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q1",
+        "type": "单选",
+        "question": "标志着人工智能走上人类历史舞台的事件是（ ）",
+        "options": [
+          "A、图灵测试模型的提出",
+          "B、1955年8月，John McCarthy、Marvin Lee Minsky、Claude Shannon和Nathaniel Rochester提交了一份题为A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence（关于举办达特茅斯人工智能夏季研讨会的提议）的报告中。",
+          "C、纳什均衡思想的提出",
+          "D、1937年，图灵发表了《论数字计算在决断难题中的应用》论文，提出了图灵机模型。"
+        ],
+        "answer": "B、1955年8月，John McCarthy、Marvin Lee Minsky、Claude Shannon和Nathaniel Rochester提交了一份题为A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence（关于举办达特茅斯人工智能夏季研讨会的提议）的报告中。",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q2",
+        "type": "单选",
+        "question": "下面两个单词短语中，前者和后者之间存在真子集关系的是（ ）",
+        "options": [
+          "A、人工智能、机器学习",
+          "B、监督学习、机器学习",
+          "C、机器学习、深度学习",
+          "D、监督学习、无监督学习"
+        ],
+        "answer": "B、监督学习、机器学习",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q3",
+        "type": "单选",
+        "question": "如果一个表示蕴含关系的符合命题是真命题（即 a-> b 是真命题），则下面哪个命题一定是真命题（ ）",
+        "options": [
+          "A、该命题的反命题（b->a）",
+          "B、命题a",
+          "C、该命题的逆否命题",
+          "D、命题b"
+        ],
+        "answer": "C、该命题的逆否命题",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q4",
+        "type": "单选",
+        "question": "在本课程所介绍的贪婪最佳优先搜索和A*搜索中，都需要用到的辅助信息是（ ）",
+        "options": [
+          "A、搜索空间中城市的个数",
+          "B、搜索空间中城市的天气状况",
+          "C、任意一个城市与目标城市之间的直线距离",
+          "D、任意一个城市与始点城市之间的直线距离"
+        ],
+        "answer": "C、任意一个城市与目标城市之间的直线距离",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q5",
+        "type": "单选",
+        "question": "下面对Alpha-Beta剪枝搜索描述不正确的是（ ）",
+        "options": [
+          "A、搜索树中节点的位置先后次序不会影响搜索效率",
+          "B、是一种对抗搜索",
+          "C、被剪枝的节点不会影响搜索结果",
+          "D、与minimax搜索算法相比，可减少所搜索的搜索树节点数"
+        ],
+        "answer": "A、搜索树中节点的位置先后次序不会影响搜索效率",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q6",
+        "type": "单选",
+        "question": "下面对蒙特卡洛树搜索描述不正确的是（ ）",
+        "options": [
+          "A、是一种基于采样的搜索方法",
+          "B、是一种穷举式枚举的搜索方法",
+          "C、其包含了选举、扩展、模拟和反向传播四个步骤",
+          "D、是将上限置信区间算法（UCB）应用于游戏树的搜索方法"
+        ],
+        "answer": "B、是一种穷举式枚举的搜索方法",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q7",
+        "type": "单选",
+        "question": "下面对期望风险和经验风险描述正确的是（ ）",
+        "options": [
+          "A、在有监督学习的训练过程中，经验风险小和期望风险大被称为欠学习",
+          "B、经验风险指模型关于联合分布期望损失，期望风险指模型关于训练样本集平均损失",
+          "C、在有监督学习的训练过程中，经验风险大和期望风险大被称为过学习",
+          "D、期望风险指模型关于联合分布期望损失，经验风险指模型关于训练样本集平均损失"
+        ],
+        "answer": "D、期望风险指模型关于联合分布期望损失，经验风险指模型关于训练样本集平均损失",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q8",
+        "type": "单选",
+        "question": "下面对线性回归描述不正确的是（ ）",
+        "options": [
+          "A、线性回归模型的训练优化目标是最小化残差平方和的均值",
+          "B、线性回归可用来分析不同变量之间存在的线性关系",
+          "C、线性回归可用来进行分析预测，即给定一个变量的取值，去预测另外一个变量的取值",
+          "D、线性回归模型的训练是一种非监督学习方法"
+        ],
+        "answer": "D、线性回归模型的训练是一种非监督学习方法",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q9",
+        "type": "单选",
+        "question": "下面对提升算法（Boosting）描述不正确的是（ ）",
+        "options": [
+          "A、提升算法基于概率近似正确 (probably approximately correct, PAC）理论，即如果已经发现了“弱学习算法”，可将其提升（boosting）为“强学习算法”",
+          "B、提升算法在每一轮迭代学习中均会更改每个数据的权重",
+          "C、提升算法将若干个弱分类器(weak classifiers)组合起来，形成一个强分类器(strong classifier)",
+          "D、提升算法在每一轮迭代学习中均会更改每个弱分类器的权重"
+        ],
+        "answer": "D、提升算法在每一轮迭代学习中均会更改每个弱分类器的权重",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q10",
+        "type": "单选",
+        "question": "下面对主成分分析和特征人脸描述不正确的是（ ）",
+        "options": [
+          "A、在主成份分析的降维过程中，尽可能将数据向方差最大方向进行投影，使得数据所蕴含信息没有丢失，彰显个性",
+          "B、主成份分析方法是一种保证数据被投影后方差最大的特征降维方法",
+          "C、特征人脸方法是一种应用主成份分析来实现人脸图像降维的方法，其本质是用一种称为“特征人脸(eigenface)”的特征向量按照线性组合形式来表达每一张原始人脸图像，进而实现人脸识别",
+          "D、假设原始灰度人脸图像维度是n*n，则特征人脸的维度是其一半"
+        ],
+        "answer": "D、假设原始灰度人脸图像维度是n*n，则特征人脸的维度是其一半",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q11",
+        "type": "单选",
+        "question": "在多层神经网络学习中，基于标注大数据，通过误差反馈来自动优化神经网络的参数。与多层前馈神经网络相比，卷积神经网络还需要自动优化的参数是（ ）",
+        "options": [
+          "A、网络层数",
+          "B、目标函数",
+          "C、卷积矩阵（卷积核）",
+          "D、输入端和输出端的维数"
+        ],
+        "answer": "C、卷积矩阵（卷积核）",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q12",
+        "type": "单选",
+        "question": "卷积操作是卷积神经网络的一个重要功能，下面对卷积操作描述不正确的是（ ）",
+        "options": [
+          "A、卷积矩阵中的参数是手工事先指定的、且每幅图像之间不共享",
+          "B、高斯卷积操作的结果是使得图像变得平滑（模糊）",
+          "C、卷积操作利用了图像中像素点存在空间相关性的特点",
+          "D、卷积操作结果可认为是保留了像素点所构成的特定空间分布模式"
+        ],
+        "answer": "A、卷积矩阵中的参数是手工事先指定的、且每幅图像之间不共享",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q13",
+        "type": "单选",
+        "question": "在强化学习中，可以通过如下操作得到一个最优的策略（ ）",
+        "options": [
+          "A、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在未来可获得反馈值的最大期望。",
+          "B、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，马上获得最大反馈值",
+          "C、在每一步中，当位于当前状态时，总是随机采取一个动作",
+          "D、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在到达终止状态时，该终止状态可获得最大期望。"
+        ],
+        "answer": "A、在每一步中，当位于当前状态时，总是采取一个动作，使得采取该动作后，在未来可获得反馈值的最大期望。",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q14",
+        "type": "单选",
+        "question": "下面对博弈论和纳什均衡描述不正确的是（ ）",
+        "options": [
+          "A、纳什均衡不一定是一种最优局势",
+          "B、纳什均衡是一种最优局势",
+          "C、囚徒困境是一种纳什均衡",
+          "D、纳什均衡是一种稳定局势"
+        ],
+        "answer": "B、纳什均衡是一种最优局势",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q15",
+        "type": "单选",
+        "question": "本课程主要讲授了逻辑推理、搜索求解、监督学习、非监督学习、深度学习、强化学习和博弈对抗七个方面的内容。下面哪一个系统利用了上述内容中至少三个（含三个）方面的内容（ ）",
+        "options": [
+          "A、Word2Vec词向量生成",
+          "B、Alpha Go",
+          "C、基于卷积神经网络的手写体图像识别",
+          "D、基于特征人脸的人脸识别"
+        ],
+        "answer": "B、Alpha Go",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q16",
+        "type": "多选",
+        "question": "机器学习算法中，一般我们要事先指定一些参数或者一些信息才能进行算法学习。下面描述正确的是（ ）",
+        "options": [
+          "A、在卷积神经网络训练中，要事先指定神经网络的层数以及每一层中卷积矩阵个数",
+          "B、在Ada Boosting训练过程中，要事先指定每个训练数据的标注信息",
+          "C、在特征人脸算法中，要事先指定每张人脸的身份信息",
+          "D、在K均值聚类算法中，要事先指定聚类个数K"
+        ],
+        "answer": "A、在卷积神经网络训练中，要事先指定神经网络的层数以及每一层中卷积矩阵个数、B、在Ada Boosting训练过程中，要事先指定每个训练数据的标注信息、D、在K均值聚类算法中，要事先指定聚类个数K",
+        "rawAnswer": "A、B、D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q17",
+        "type": "多选",
+        "question": "从研究范畴来说，下面说法正确的是（ ）",
+        "options": [
+          "A、监督学习和无监督学习是机器学习的真子集",
+          "B、机器学习是人工智能的真子集",
+          "C、深度学习是机器学习的真子集",
+          "D、蒙特卡洛树搜索是对抗搜索的真子集"
+        ],
+        "answer": "A、监督学习和无监督学习是机器学习的真子集、B、机器学习是人工智能的真子集、C、深度学习是机器学习的真子集、D、蒙特卡洛树搜索是对抗搜索的真子集",
+        "rawAnswer": "A、B、C、D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q18",
+        "type": "判断",
+        "question": "在Ada Boosting算法中，如果某个样本无法被当前弱分类器分类成功，则减少该样本权重，否则增大该样本权重。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "answer": "B、",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q19",
+        "type": "判断",
+        "question": "从是否利用了样本的标注信息而言，2016年战胜李世石的Alpha Go只是通过无监督学习机制来训练的。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "answer": "B、",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "浙大样例题 Q20",
+        "type": "判断",
+        "question": "生成对抗网络中包含生成网络和判别网络两个神经网络，前者用来区别样本的真伪、后者用来产生虚拟数据。",
+        "options": [
+          "A、",
+          "B、"
+        ],
+        "answer": "B、",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": "原提取文本未显示正确答案；按 GAN 概念判断该表述错误。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第三轮新增完整题干与选项。"
+    }
+  },
+  {
+    "id": "bank-network-full",
+    "status": "ready",
+    "chapter": "完整题库",
+    "order": "98.2",
+    "title": "完整题库：网络样例题",
+    "subtitle": "整套原题按提取文本完整放入，适合集中刷题；同一题也已放入对应考点。",
+    "sourceEvidence": [
+      {
+        "ref": "3  一些网络上的样例题目.docx.txt",
+        "quote": "完整收录 45 道可提取题目。"
+      }
+    ],
+    "intent": [
+      "集中刷题视图，避免只在各考点中分散查找。",
+      "题目仍然保留来源、选项和答案。"
+    ],
+    "learning": [
+      {
+        "heading": "怎么使用这个题库",
+        "body": [
+          "先按考点学习，再到这里按整套题刷；错题回到对应考点复习。"
+        ],
+        "bullets": [
+          "完整题干。",
+          "完整选项。",
+          "答案和必要备注。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "刷题",
+        "question": "本页用于集中练习样例题。",
+        "answer": "做完后回到对应考点查解析。"
+      }
+    ],
+    "traps": [
+      "网络样例题个别答案与标准概念可能不一致，已在备注中标出。",
+      "截断题只保留可见文本，不编造题干。"
+    ],
+    "answers": [
+      {
+        "title": "刷题建议",
+        "text": "先遮住答案做题，再展开答案；不会的题回对应考点学习。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "完整题库的作用是什么？",
+        "options": [
+          "集中刷题",
+          "替代所有课件",
+          "删除考点"
+        ],
+        "correct": 0,
+        "explain": "题库用于练习，考点页用于学习。"
+      }
+    ],
+    "pptDeepDive": [
+      {
+        "title": "题库来源",
+        "points": [
+          "3  一些网络上的样例题目.docx.txt"
+        ]
+      }
+    ],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q1",
+        "type": "单选",
+        "question": "哪个库不属于大数据分析和处理的三剑客。",
+        "options": [
+          "A、seaborn",
+          "B、pandas",
+          "C、numpy",
+          "D、matplotlib"
+        ],
+        "answer": "A、seaborn",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q2",
+        "type": "单选",
+        "question": "不属于自然语言处理的核心环节的是()",
+        "options": [
+          "A、知识的获取与表达",
+          "B、自然语言理解",
+          "C、自然语言生成",
+          "D、语音语义识别"
+        ],
+        "answer": "D、语音语义识别",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q3",
+        "type": "单选",
+        "question": "有特征，有部分标签的机器学习属于()。",
+        "options": [
+          "A、监督学习",
+          "B、半监督学习",
+          "C、无监督学习",
+          "D、强化学习"
+        ],
+        "answer": "B、半监督学习",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q4",
+        "type": "单选",
+        "question": "列哪一个神经网络模型更适合于自然语言处理",
+        "options": [
+          "A、卷积神经网络CNN",
+          "B、循环神经网络RNN",
+          "C、BP神经网络模型",
+          "D、Hopfield 神经网格模型"
+        ],
+        "answer": "B、循环神经网络RNN",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q5",
+        "type": "单选",
+        "question": "下列叙述中关于归一化不正确的是()",
+        "options": [
+          "A、归一化后，所有元素和为1",
+          "B、归一化后，所有元素值范围在0,1",
+          "C、归一化后，所有元素值范围在0,1]",
+          "D、归一化也被称为标准化"
+        ],
+        "answer": "B、归一化后，所有元素值范围在0,1",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q6",
+        "type": "单选",
+        "question": "下面不属于人工智能研究基本内容的是()。",
+        "options": [
+          "A、机器感知",
+          "B、机器学习",
+          "C、自动化",
+          "D、机器思维"
+        ],
+        "answer": "C、自动化",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q7",
+        "type": "单选",
+        "question": "卷积神经网络的主要特点是具有。",
+        "options": [
+          "A、池化层",
+          "B、全连接层",
+          "C、卷积操作",
+          "D、多层隐含层"
+        ],
+        "answer": "C、卷积操作",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q18a",
+        "type": "单选",
+        "question": "深度学习可以具有几个隐藏层()。",
+        "options": [
+          "A、1个",
+          "B、2个",
+          "C、3个",
+          "D、4个"
+        ],
+        "answer": "B、2个",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": "原题编号显示为 18；为避免与后面“多分类”题重复，记为 Q18a。"
+      },
+      {
+        "source": "网络样例题 Q18b",
+        "type": "单选",
+        "question": "两种以上(不含两种)的分类问题被称为()。",
+        "options": [
+          "A、二分类",
+          "B、多分类",
+          "C、分类器",
+          "D、归一化"
+        ],
+        "answer": "B、多分类",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": "原题编号也显示为 18；为避免与前面“深度学习隐藏层”题重复，记为 Q18b。"
+      },
+      {
+        "source": "网络样例题 Q9",
+        "type": "单选",
+        "question": "寻找数据之间的相似性并将之划分组的方法称为()。",
+        "options": [
+          "A、分组",
+          "B、分类",
+          "C、回归",
+          "D、聚类"
+        ],
+        "answer": "D、聚类",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q10",
+        "type": "单选",
+        "question": "人工智能(AI)、机器学习、深度学习三者关系论述正确的是()",
+        "options": [
+          "A、人工智能研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用，属于一门独立的技术学科。",
+          "B、机器学习专门研究计算机怎样模拟人类的学习行为，以获取新的知识和技能，重新组织已有的知识结构以完善自身的性能，但是机器学习能力并非AI 系统所必须的。",
+          "C、人工智能是一门研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用的新的交叉学科，机器学习是人工智能的核心研究邻域之一，深度学习是机器学习的新领域，研究多隐层多感知器、模拟人脑进行分析学习的人工神经网络。",
+          "D、深度学习方法研究人工神经网络的单层感知器学习结构。"
+        ],
+        "answer": "C、人工智能是一门研究、开发用于模拟、延伸和扩展人类智能的理论、方法及应用的新的交叉学科，机器学习是人工智能的核心研究邻域之一，深度学习是机器学习的新领域，研究多隐层多感知器、模拟人脑进行分析学习的人工神经网络。",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q11",
+        "type": "单选",
+        "question": "关联规则中置信度的含义是。",
+        "options": [
+          "A、物品频繁出现的概率",
+          "B、一个物品的销售数量对另一个物品的影响",
+          "C、规则出现的概率",
+          "D、两个物品同时出现的频次与前一个物品出现频次的比例"
+        ],
+        "answer": "C、规则出现的概率",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q12",
+        "type": "单选",
+        "question": "下列哪个方法不是用于计算相似度的。",
+        "options": [
+          "A、欧式距离",
+          "B、皮尔逊相关系数",
+          "C、均方根误差RMSE",
+          "D、余弦向量"
+        ],
+        "answer": "C、均方根误差RMSE",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q13",
+        "type": "单选",
+        "question": "下列算法中，不能够对给定样本进行分类的是()。",
+        "options": [
+          "A、决策树算法",
+          "B、逻辑回归算法",
+          "C、梯度下降算法",
+          "D、神经网络"
+        ],
+        "answer": "C、梯度下降算法",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q14",
+        "type": "单选",
+        "question": "梯度下降法的目标是。",
+        "options": [
+          "A、尽快完成模型训练",
+          "B、寻找损失函数的最小值",
+          "C、提供算法效率",
+          "D、提高模型性能"
+        ],
+        "answer": "B、寻找损失函数的最小值",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q15",
+        "type": "单选",
+        "question": "图灵测试的含义是()",
+        "options": [
+          "A、图灵测试是测试人在与被测试者一个人和一台机器隔开的情况下，通过一些装置如键盘向被测试者随意提问。问过一些问题后，如果被测试者超过30%的答复不能使测试人确认出哪个是人、哪个是机器的回答，那么这台机器就通过了测试，并被认为具有人类智能。",
+          "B、所谓的图灵测试就是指一个抽象的机器，它有一条无限长的纸带，纸带分成了一个一个的小方格，每个方格有不同的颜色。有一个机器头在纸带上移来移去。机器头有一组内部状态，还有一些固定的程序。",
+          "C、图灵测试是一种用来混淆的技术，它希望将正常的可识别的信息转变为无法识别的信息。",
+          "D、不存在图灵测试概念"
+        ],
+        "answer": "A、图灵测试是测试人在与被测试者一个人和一台机器隔开的情况下，通过一些装置如键盘向被测试者随意提问。问过一些问题后，如果被测试者超过30%的答复不能使测试人确认出哪个是人、哪个是机器的回答，那么这台机器就通过了测试，并被认为具有人类智能。",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q16",
+        "type": "单选",
+        "question": "关于聚类说法正确是。",
+        "options": [
+          "A、聚类样本一定要有标签",
+          "B、应该将所有特征数据作为聚类依据",
+          "C、聚类的k 值可以随意指定",
+          "D、聚类质心就是各簇群特征的平均值"
+        ],
+        "answer": "D、聚类质心就是各簇群特征的平均值",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q17",
+        "type": "单选",
+        "question": "当消费者A 购买了《机器学习》的书籍后，购物平台可能会优先推荐该消费者购买如下哪本书籍()。",
+        "options": [
+          "A、《人工智能》",
+          "B、《三体》",
+          "C、《英汉词典》",
+          "D、《论语》"
+        ],
+        "answer": "A、《人工智能》",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q19",
+        "type": "单选",
+        "question": "CNN 中用来完成分类的是",
+        "options": [
+          "A、卷积层",
+          "B、池化层",
+          "C、全连接层",
+          "D、ReLU 函数"
+        ],
+        "answer": "C、全连接层",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q20",
+        "type": "单选",
+        "question": "分类器测试的作用是",
+        "options": [
+          "A、获得检测目标的分类",
+          "B、判断测试集样本选择是否合适",
+          "C、判断测试集样本标注是否合适",
+          "D、检验分类器的效果"
+        ],
+        "answer": "D、检验分类器的效果",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q21",
+        "type": "单选",
+        "question": "深度神经网络与基本神经网络的区别是。",
+        "options": [
+          "A、输入层节点数不同",
+          "B、输出层节点数不同",
+          "C、隐含层个数不同",
+          "D、激活函数不同"
+        ],
+        "answer": "C、隐含层个数不同",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q22",
+        "type": "单选",
+        "question": "关于卷积层的说法，错误的是",
+        "options": [
+          "A、卷积核的尺寸是由人为指定的",
+          "B、卷积核的参数值是人为指定的",
+          "C、卷积层可以作为神经网络的隐藏层",
+          "D、特征图是为卷积层的最终输出"
+        ],
+        "answer": "B、卷积核的参数值是人为指定的",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q41",
+        "type": "单选",
+        "question": "K均值聚类算法，属于()。",
+        "options": [
+          "A、监督学习",
+          "B、无监督学习",
+          "C、半监督学习",
+          "D、强化学习"
+        ],
+        "answer": "B、无监督学习",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q42",
+        "type": "单选",
+        "question": "下面不属于人工智能研究基本内容的是()。",
+        "options": [
+          "A、机器感知",
+          "B、机器学习",
+          "C、自动化",
+          "D、机器思维"
+        ],
+        "answer": "C、自动化",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q43",
+        "type": "单选",
+        "question": "有特征，无标签的机器学习是()。",
+        "options": [
+          "A、监督学习",
+          "B、半监督学习",
+          "C、无监督学习",
+          "D、强化学习"
+        ],
+        "answer": "C、无监督学习",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q44",
+        "type": "单选",
+        "question": "在何种情况下神经网络模型被称为深度学习模型()。",
+        "options": [
+          "A、加入更多层，使神经网络的层数增加",
+          "B、有维度更高的数据",
+          "C、当这是一个图形识别问题时",
+          "D、以上都不正确"
+        ],
+        "answer": "A、加入更多层，使神经网络的层数增加",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q45",
+        "type": "单选",
+        "question": "机器学习中的从数据中学习通常不包含有()。",
+        "options": [
+          "A、监督学习",
+          "B、强化学习",
+          "C、非监督学习",
+          "D、半监督学习"
+        ],
+        "answer": "B、强化学习",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q46",
+        "type": "单选",
+        "question": "第三方库matplotlib 的作用是。",
+        "options": [
+          "A、进行科学计算",
+          "B、数据可视化",
+          "C、制作图表",
+          "D、人工智慧预测"
+        ],
+        "answer": "C、制作图表",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q47",
+        "type": "单选",
+        "question": "对于多层神经网络，BP (反向传播)算法的直接作用是()。",
+        "options": [
+          "A、提供训练集、测试集样本",
+          "B、加快训练权值参数和偏置参数",
+          "C、提高神经网络特征表示精确度",
+          "D、科学评价训练模型"
+        ],
+        "answer": "B、加快训练权值参数和偏置参数",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q48",
+        "type": "单选",
+        "question": "池化层的作用不包括",
+        "options": [
+          "A、解决卷积计算量过大的问题",
+          "B、降低特征图的分辨率",
+          "C、实现不同尺度特征的提取",
+          "D、实现特征分类"
+        ],
+        "answer": "D、实现特征分类",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q49",
+        "type": "单选",
+        "question": "SVM 的最优分界面是由决定的。",
+        "options": [
+          "A、支持向量",
+          "B、所有样本",
+          "C、多数样本",
+          "D、少数样本"
+        ],
+        "answer": "A、支持向量",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q50",
+        "type": "单选",
+        "question": "以下哪些不是人工智能概念的正确表述()",
+        "options": [
+          "A、人工智能是为了开发一类计算机使之能够完成通常由人类所能做的事",
+          "B、人工智能是研究和构建在给定环境下表现良好的智能体程序",
+          "C、人工智能是通过机器或软件展现的智能",
+          "D、人工智能将其定义为人类智能体的研究"
+        ],
+        "answer": "D、人工智能将其定义为人类智能体的研究",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q51",
+        "type": "单选",
+        "question": "有关分类器的构造和实施步骤描述错误的是：()",
+        "options": [
+          "A、选定样本，将所有样本分成训练样本和测试样本两部分",
+          "B、在训练样本上执行分类器算法，生成分类模型",
+          "C、在训练样本上执行分类模型，生成预测结果",
+          "D、根据预测结果，计算必要的评估指标，评估分类模型的性能。"
+        ],
+        "answer": "C、在训练样本上执行分类模型，生成预测结果",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q52",
+        "type": "单选",
+        "question": "不属于家中的人工智能产品的有()。",
+        "options": [
+          "A、智能音箱",
+          "B、扫地机器人",
+          "C、声控灯",
+          "D、个人语音助手"
+        ],
+        "answer": "C、声控灯",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q53",
+        "type": "单选",
+        "question": "把样本所属的类型和样本实现对应起来被称为()",
+        "options": [
+          "A、测试",
+          "B、训练",
+          "C、标注",
+          "D、分类"
+        ],
+        "answer": "C、标注",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q54",
+        "type": "单选",
+        "question": "发展出图像识别成功率超越人类的人工智能的主要因素有()。",
+        "options": [
+          "A、计算力的提升",
+          "B、资金的投入",
+          "C、社会关注度提升",
+          "D、人类专家规则的完善"
+        ],
+        "answer": "A、计算力的提升",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q60",
+        "type": "单选",
+        "question": "人工智能的研发和应用的政策，应该将()置于核心位置。",
+        "options": [
+          "A、道德",
+          "B、人",
+          "C、资本",
+          "D、隐私"
+        ],
+        "answer": "B、人",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q61",
+        "type": "单选",
+        "question": "无监督学习可完成什么任务()",
+        "options": [
+          "A、分类",
+          "B、回归",
+          "C、聚类",
+          "D、分类、回归、聚类"
+        ],
+        "answer": "C、聚类",
+        "rawAnswer": "C",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q62",
+        "type": "单选",
+        "question": "以下那个不是图像的基本运算",
+        "options": [
+          "A、点运算",
+          "B、块运算",
+          "C、代数运算",
+          "D、逻辑运算"
+        ],
+        "answer": "B、块运算",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q63",
+        "type": "单选",
+        "question": "机器学习的主要特点是。",
+        "options": [
+          "A、通过各种算法从大数据中学习如何完成任务",
+          "B、像人一样开展自主学习",
+          "C、具有人类神经网络的功能",
+          "D、能对真实世界中的事件做出决策和预测"
+        ],
+        "answer": "A、通过各种算法从大数据中学习如何完成任务",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q64",
+        "type": "单选",
+        "question": "从某中学随机选取8名男生，其身高x(cm)和体重y(kg)的线性回归方程为 y=0.849x-85.712,则身高172cm 的男学生，又回归方程可以预报其体重()。",
+        "options": [
+          "A、为60.316kg",
+          "B、约为60.316kg",
+          "C、大于60.316kg",
+          "D、小于60.316kg"
+        ],
+        "answer": "B、约为60.316kg",
+        "rawAnswer": "B",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q65",
+        "type": "单选",
+        "question": "计算机显示器使用的颜色模型是",
+        "options": [
+          "A、HSV",
+          "B、CMYK",
+          "C、YUV",
+          "D、RGB"
+        ],
+        "answer": "D、RGB",
+        "rawAnswer": "D",
+        "placementReason": "完整题库集中收录。",
+        "note": "原提取文本未显示答案；按常识和选项判断为 RGB。"
+      },
+      {
+        "source": "网络样例题 Q66",
+        "type": "单选",
+        "question": "人工智能是研究、开发用于模拟、延伸和扩展人的()的理论、方法、技术及应用系统的一门新的技术科学。",
+        "options": [
+          "A、智能",
+          "B、行为",
+          "C、语言",
+          "D、计算能力"
+        ],
+        "answer": "A、智能",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q67",
+        "type": "单选",
+        "question": "OpenCV 库主要应用领域的人工智能开发。",
+        "options": [
+          "A、计算机视觉和机器学习",
+          "B、人脸识别",
+          "C、深度神经网络",
+          "D、图像处理"
+        ],
+        "answer": "A、计算机视觉和机器学习",
+        "rawAnswer": "A",
+        "placementReason": "完整题库集中收录。",
+        "note": ""
+      },
+      {
+        "source": "网络样例题 Q68",
+        "type": "单选",
+        "question": "初始化采",
+        "options": [],
+        "answer": "",
+        "rawAnswer": "",
+        "placementReason": "完整题库集中收录。",
+        "note": "原提取文本在此题截断，只保留能看到的题干。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第三轮新增完整题干与选项。"
+    }
   },
   {
     "id": "final-review-map",
@@ -6062,24 +7608,40 @@ window.LESSONS = [
       {
         "source": "浙大样例题 Q16",
         "type": "多选",
-        "question": "机器学习算法中哪些需要事先指定参数或信息？",
-        "answer": "A、B、D。",
-        "placementReason": "跨考点综合题，放在总复习，同时相关点已分散补到 CNN、AdaBoost、K-means。"
+        "question": "机器学习算法中，一般我们要事先指定一些参数或者一些信息才能进行算法学习。下面描述正确的是（ ）",
+        "answer": "A、在卷积神经网络训练中，要事先指定神经网络的层数以及每一层中卷积矩阵个数、B、在Ada Boosting训练过程中，要事先指定每个训练数据的标注信息、D、在K均值聚类算法中，要事先指定聚类个数K",
+        "placementReason": "跨考点综合题，放在总复习，同时相关点已分散补到 CNN、AdaBoost、K-means。",
+        "options": [
+          "A、在卷积神经网络训练中，要事先指定神经网络的层数以及每一层中卷积矩阵个数",
+          "B、在Ada Boosting训练过程中，要事先指定每个训练数据的标注信息",
+          "C、在特征人脸算法中，要事先指定每张人脸的身份信息",
+          "D、在K均值聚类算法中，要事先指定聚类个数K"
+        ],
+        "rawAnswer": "A、B、D"
       },
       {
         "source": "浙大样例题 Q17",
         "type": "多选",
-        "question": "从研究范畴来说，哪些说法正确？",
-        "answer": "A、B、C、D。",
-        "placementReason": "跨章节层级关系综合题，放在总复习。"
+        "question": "从研究范畴来说，下面说法正确的是（ ）",
+        "answer": "A、监督学习和无监督学习是机器学习的真子集、B、机器学习是人工智能的真子集、C、深度学习是机器学习的真子集、D、蒙特卡洛树搜索是对抗搜索的真子集",
+        "placementReason": "跨章节层级关系综合题，放在总复习。",
+        "options": [
+          "A、监督学习和无监督学习是机器学习的真子集",
+          "B、机器学习是人工智能的真子集",
+          "C、深度学习是机器学习的真子集",
+          "D、蒙特卡洛树搜索是对抗搜索的真子集"
+        ],
+        "rawAnswer": "A、B、C、D"
       },
       {
         "source": "网络样例题 Q68",
-        "type": "截断题",
-        "question": "原文只剩“初始化采...”且题干不完整。",
-        "answer": "无法可靠作答。",
+        "type": "单选",
+        "question": "初始化采 导论网站上的71",
+        "answer": "",
         "placementReason": "题目截断，放在总复习说明未纳入考核答案。",
-        "options": "原始提取文本不完整，避免编造。"
+        "options": [],
+        "rawAnswer": "",
+        "note": "原提取文本在此题截断，只保留能看到的题干。"
       }
     ]
   }
