@@ -122,7 +122,57 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:8-9：第1章人工智能概述；智能，人工智能的相关概念，人工智能起源的时间和事件。",
+          "第1章课件:10-12：智能是知识与智力的总和；知识是一切智能行为的基础；获取知识，并应用知识求解问题的能力。",
+          "第1章课件:44-47：人工智能是用人工的方法在机器上实现的智能；AI 学科研究如何构造智能机器或智能系统，使它模拟、完善、扩展人类智能。",
+          "第1章课件:66-75：人工智能的诞生；Dartmouth；1955 年建议书；四位学者提出 AI 术语和研究范畴。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q1",
+        "type": "单选",
+        "question": "标志着人工智能走上人类历史舞台的事件是？",
+        "answer": "B：1955 年 Dartmouth AI 夏季研讨会提议报告。",
+        "placementReason": "考 AI 起源，放在 AI 概念与起源考点。"
+      },
+      {
+        "source": "网络样例题 Q6",
+        "type": "单选",
+        "question": "不属于人工智能研究基本内容的是？",
+        "answer": "C：自动化。",
+        "placementReason": "AI 基本内容概念题。"
+      },
+      {
+        "source": "网络样例题 Q42",
+        "type": "单选",
+        "question": "不属于人工智能研究基本内容的是？",
+        "answer": "C：自动化。",
+        "placementReason": "AI 研究内容概念题。"
+      },
+      {
+        "source": "网络样例题 Q50",
+        "type": "单选",
+        "question": "哪些不是 AI 概念的正确表述？",
+        "answer": "D：人工智能将其定义为人类智能体的研究。",
+        "placementReason": "AI 定义辨析。"
+      },
+      {
+        "source": "网络样例题 Q66",
+        "type": "单选",
+        "question": "人工智能是研究、开发用于模拟、延伸和扩展人的什么？",
+        "answer": "A：智能。",
+        "placementReason": "AI 定义原句。"
+      }
+    ]
   },
   {
     "id": "ch1-02-turing",
@@ -211,7 +261,27 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:10：什么是图灵测试？",
+          "第1章课件:46：图灵测试：1950年图灵发表的《计算机与智能》中设计了一个测试，用以说明人工智能的概念。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q15",
+        "type": "单选",
+        "question": "图灵测试的含义是？",
+        "answer": "A：隔开人和机器提问，无法确认哪个是机器则通过。",
+        "placementReason": "图灵测试考点。"
+      }
+    ]
   },
   {
     "id": "ch1-03-ai-types",
@@ -310,7 +380,16 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:11：从智能的角度划分，人工智能分哪三大类，典型区别是什么。",
+          "第1章课件:79：智能方面的分类。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch1-04-ai-methods",
@@ -413,7 +492,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:12：理解人工智能三种主流方法，及其区别。",
+          "第1章课件:60：人工智能三大学派及其研究方法的特点。",
+          "第1章课件:85：强化学习。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch1-05-alphago",
@@ -520,7 +609,36 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:13：AlphaGo 主要用到的人工智能方法有哪些，强化学习。",
+          "第3章搜索课件:29：强化学习如 AlphaGo 中的蒙特卡洛树搜索依赖高效搜索策略。",
+          "第3章蒙特卡洛搜索课件：AlphaGo 相关内容包含策略网络、价值网络与蒙特卡洛树搜索。",
+          "第7章课件:2-4：强化学习讨论智能体如何最大化奖励，目标是找到策略。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q15",
+        "type": "单选",
+        "question": "哪个系统利用课程至少三个方面内容？",
+        "answer": "B：Alpha Go。",
+        "placementReason": "AlphaGo 综合搜索、深度学习、强化学习等。"
+      },
+      {
+        "source": "浙大样例题 Q19",
+        "type": "判断",
+        "question": "2016 年 AlphaGo 只是通过无监督学习机制训练。",
+        "answer": "B：错误。",
+        "placementReason": "AlphaGo 使用监督学习、强化学习、深度学习和搜索。"
+      }
+    ]
   },
   {
     "id": "ch2-01-formal-system",
@@ -607,7 +725,16 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:15：什么是形式化系统，保证形式化系统有效性的性质是什么。",
+          "第2章课件:22-30：第2章逻辑与推理；知识表示；从一阶谓词逻辑到知识图谱表示法。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch2-02-knowledge-representation",
@@ -695,7 +822,16 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:16：什么是知识，什么是知识表示。",
+          "第2章课件:28-30：知识表示是 AI 发展的重要任务；知识表示经历一阶谓词逻辑、产生式、框架、脚本、语义网络、知识图谱等。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch2-03-proposition-logic",
@@ -795,7 +931,27 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:17：什么是命题，什么是命题逻辑，要会判断描述是否是命题，复合命题连接词有哪五种，符号分别是什么。",
+          "第2章课件:18-19：第2章包含谓词逻辑和命题逻辑。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q3",
+        "type": "单选",
+        "question": "若 a->b 为真，哪个命题一定为真？",
+        "answer": "C：该命题的逆否命题。",
+        "placementReason": "考蕴含与逆否命题等价。"
+      }
+    ]
   },
   {
     "id": "ch2-04-resolution",
@@ -895,7 +1051,16 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:18：参考 ppt 内容，会采用归结法，对一个命题集是否满足，进行证明。",
+          "第2章课件:19-22：命题逻辑、知识图谱推理、因果推理属于第2章逻辑与推理。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch2-05-predicate-logic",
@@ -986,7 +1151,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:19：什么是谓词逻辑，谓词逻辑研究的内容和核心概念是什么。",
+          "第2章课件:18：二、谓词逻辑。",
+          "第2章课件:30-33：知识表示从一阶谓词逻辑发展到产生式、框架、语义网络、知识图谱。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch2-06-quantifiers",
@@ -1085,7 +1260,35 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:20：全称量词和存在量词的概念和表示符号是什么。",
+          "谓词推理复习资料：谓词推理例题均依赖全称实例化、存在实例化等量词规则。"
+        ]
+      }
+    ],
+    "supplementItems": [
+      {
+        "source": "4 命题和谓词的符号化---复习参考",
+        "title": "谓词符号化例题集中放这里",
+        "content": [
+          "小李比小赵高：L(x,y) 表示 x 比 y 高，a=小李，b=小赵，则 L(a,b)。",
+          "无锡位于南京和上海之间：P(x,y,z) 表示 x 位于 y 和 z 之间，a=无锡，b=南京，c=上海，则 P(a,b,c)。",
+          "凡是有理数均可表成分数：若个体域为实数，应写 ∀x(R(x)->A(x))。",
+          "每个自然数都是实数：∀x(N(x)->R(x))。",
+          "对于任意 x，存在 y，使 x+y=5：∀x∃yH(x,y)。",
+          "没有不呼吸的人：¬∃x(M(x)∧¬F(x))。",
+          "素数不全是奇数：∃x(P(x)∧¬O(x))。",
+          "所有大学生都爱学习：∀x(S(x)->L(x))。",
+          "注意：原补充资料中个别“有些 A 是 B”写成蕴含形式，考试建议按标准逻辑写 ∃x(A(x)∧B(x))。"
+        ]
+      }
+    ],
+    "imageSupplements": [],
+    "practiceItems": []
   },
   {
     "id": "ch2-07-predicate-inference",
@@ -1185,7 +1388,31 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:21：参考 ppt 内容，会采用谓词逻辑进行简单的推理。",
+          "5 谓词推理复习资料：存在量词先 EI，全称量词再 UI，结合事实后用 EG/UG。"
+        ]
+      }
+    ],
+    "supplementItems": [
+      {
+        "source": "5 谓词推理---复习要点-new",
+        "title": "谓词推理四个证明例题放这里",
+        "content": [
+          "技巧：先整理成量词在前的形式；有存在量词先做存在指定 EI；有全称量词再做全称指定 UI；最后按需要做存在推广 EG 或全称推广 UG。",
+          "例1：∀x(P(x)->D(x)) 与 P(c) 可推出 D(c)：先 UI 得 P(c)->D(c)，再 MP。",
+          "例2：∀x(F(x)->G(x)), ∃xF(x) => ∃xG(x)：EI 得 F(c)，UI 得 F(c)->G(c)，MP 得 G(c)，EG 得 ∃xG(x)。",
+          "例3：∀x(F(x)->G(x)), ∃x(F(x)∧H(x)) => ∃x(G(x)∧H(x))：EI、合取消去、UI、MP、合取引入、EG。",
+          "例4：F1:∀x(P(x)->(Q(x)∧R(x))), F2:∃x(P(x)∧S(x)), G:∃x(S(x)∧R(x))：由 F2 得 P(c),S(c)，由 F1 得 R(c)，合取得 S(c)∧R(c)，再 EG。"
+        ]
+      }
+    ],
+    "imageSupplements": [],
+    "practiceItems": []
   },
   {
     "id": "ch2-08-causal-inference",
@@ -1288,7 +1515,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:22：什么是因果推理，因果推理由简单到复杂，由哪些层次构成。",
+          "第2章因果课件:58-78：因果推理、辛普森悖论、从统计建模推断到因果推理。",
+          "第2章因果课件:101-114：反事实问题；因果推理的层级。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch3-01-greedy-astar",
@@ -1392,7 +1629,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:24：简述贪婪最优搜索和启发式搜索的区别，简述A*算法。",
+          "第3章搜索课件:7-11：搜索是求解 AI 问题的一般方法；基于搜索的系统通过探查和回溯寻找解。",
+          "第3章搜索课件:22-31：搜索是人工智能的核心问题，路径规划、游戏博弈、自动推理等需要在状态空间中搜索。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q4",
+        "type": "单选",
+        "question": "贪婪最佳优先搜索和 A* 都需要的辅助信息是？",
+        "answer": "C：任意城市与目标城市之间的直线距离。",
+        "placementReason": "考启发函数 h(n)。"
+      }
+    ]
   },
   {
     "id": "ch3-02-adversarial-alpha-beta",
@@ -1496,7 +1754,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:25：什么是对抗搜索，简述Alpha-Beta剪枝算法。",
+          "第3章对抗课件:2-4：对抗搜索也称博弈搜索，智能体之间竞争实现相反利益，一方最大化，另一方最小化。",
+          "第3章对抗课件:16-17：Minimax 是基本方法；Alpha-Beta 是改进算法，可剪除无需搜索的分支且不影响结果。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q5",
+        "type": "单选",
+        "question": "Alpha-Beta 剪枝搜索描述不正确的是？",
+        "answer": "A：节点位置先后次序不会影响搜索效率。",
+        "placementReason": "节点顺序会影响剪枝效率，放在 Alpha-Beta 概念。"
+      }
+    ]
   },
   {
     "id": "ch3-03-alpha-beta-calculation",
@@ -1599,7 +1878,76 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:26：会对一个对抗搜索的局部，用Alpha-Beta进行剪枝搜索。",
+          "6-alph-beta剪枝复习题：复习题以树形图形式训练 Alpha-Beta 局部剪枝。",
+          "第3章对抗课件:31-37：Minimax 从上到下遍历搜索树，回溯更新根节点值；我方节点取大，对方节点取小。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [
+      {
+        "src": "assets/alpha-beta/alpha-beta-01.png",
+        "title": "Alpha-Beta 剪枝补充题图 1",
+        "alt": "Alpha-Beta 剪枝补充题图 1"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-02.png",
+        "title": "Alpha-Beta 剪枝补充题图 2",
+        "alt": "Alpha-Beta 剪枝补充题图 2"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-03.png",
+        "title": "Alpha-Beta 剪枝补充题图 3",
+        "alt": "Alpha-Beta 剪枝补充题图 3"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-04.png",
+        "title": "Alpha-Beta 剪枝补充题图 4",
+        "alt": "Alpha-Beta 剪枝补充题图 4"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-05.png",
+        "title": "Alpha-Beta 剪枝补充题图 5",
+        "alt": "Alpha-Beta 剪枝补充题图 5"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-06.png",
+        "title": "Alpha-Beta 剪枝补充题图 6",
+        "alt": "Alpha-Beta 剪枝补充题图 6"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-07.png",
+        "title": "Alpha-Beta 剪枝补充题图 7",
+        "alt": "Alpha-Beta 剪枝补充题图 7"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-08.png",
+        "title": "Alpha-Beta 剪枝补充题图 8",
+        "alt": "Alpha-Beta 剪枝补充题图 8"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-09.png",
+        "title": "Alpha-Beta 剪枝补充题图 9",
+        "alt": "Alpha-Beta 剪枝补充题图 9"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-10.svg",
+        "title": "Alpha-Beta 剪枝补充题图 10",
+        "alt": "Alpha-Beta 剪枝补充题图 10"
+      },
+      {
+        "src": "assets/alpha-beta/alpha-beta-11.png",
+        "title": "Alpha-Beta 剪枝补充题图 11",
+        "alt": "Alpha-Beta 剪枝补充题图 11"
+      }
+    ],
+    "practiceItems": []
   },
   {
     "id": "ch4-01-python-libraries",
@@ -1702,7 +2050,35 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:28：Python的矢量计算、可视化和数据预处理库主要有哪些，numpy pandas sk-learn, pytorch tensorflow等。",
+          "第4章基础课件:52：Numpy 提供数组运算以及一些数学函数。",
+          "第4章基础课件:76-77：机器学习通过矩阵完成分类、聚类和回归；Numpy 提供矩阵结构和线性代数库。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q1",
+        "type": "单选",
+        "question": "哪个库不属于大数据分析和处理的三剑客？",
+        "answer": "A：seaborn。",
+        "placementReason": "考 Python 库用途。"
+      },
+      {
+        "source": "网络样例题 Q46",
+        "type": "单选",
+        "question": "matplotlib 的作用是？",
+        "answer": "C：制作图表。",
+        "placementReason": "可视化库。"
+      }
+    ]
   },
   {
     "id": "ch4-02-preprocessing-onehot",
@@ -1807,7 +2183,29 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:29-30：简述数据清洗和数据预处理的主要方法，什么是独热编码；补缺，去异常，归一化，转换，编码。",
+          "第4章基础课件:180-188：缺失值需要填补；数据补齐后检验；连续数据无量纲化：归一化和标准化。",
+          "第4章基础课件:203-205：分类数据需要独热编码，为每个类别创建二进制特征向量。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q5",
+        "type": "单选",
+        "question": "关于归一化不正确的是？",
+        "answer": "资料答案：B。",
+        "placementReason": "归一化/标准化考点。",
+        "options": "网络题答案与常规定义不完全一致；本课按课件重点记：归一化和标准化要区分。"
+      }
+    ]
   },
   {
     "id": "ch5-01-ml-stat-learning",
@@ -1906,7 +2304,49 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:32：机器学习的概念，统计学习的概念。",
+          "第4章基础课件:20-22：机器学习从数据中发现模式和规律；通过训练数据训练模型，对新数据预测和分类；核心任务包括监督、无监督和强化学习。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q3",
+        "type": "单选",
+        "question": "有特征、有部分标签的机器学习属于？",
+        "answer": "B：半监督学习。",
+        "placementReason": "补充机器学习类型。"
+      },
+      {
+        "source": "网络样例题 Q10",
+        "type": "单选",
+        "question": "AI、机器学习、深度学习三者关系正确的是？",
+        "answer": "C。",
+        "placementReason": "考 AI/ML/DL 层级关系。"
+      },
+      {
+        "source": "网络样例题 Q45",
+        "type": "单选",
+        "question": "机器学习中的从数据中学习通常不包含？",
+        "answer": "资料答案：B：强化学习。",
+        "placementReason": "机器学习范畴补充。",
+        "options": "本课程复习要点明确把强化学习作为机器学习/AI 重要内容单列；考试本课时优先按课件。"
+      },
+      {
+        "source": "网络样例题 Q63",
+        "type": "单选",
+        "question": "机器学习主要特点是？",
+        "answer": "A：通过算法从大数据中学习如何完成任务。",
+        "placementReason": "机器学习概念。"
+      }
+    ]
   },
   {
     "id": "ch5-02-supervised",
@@ -2009,7 +2449,56 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:33：什么是有监督学习，主要的有监督学习算法有哪些。",
+          "第4章基础课件:23-26：监督学习的概念；常见监督学习算法包括线性回归、逻辑回归和决策树等；用于分类、回归和预测。",
+          "第4章监督课件:2-13：监督学习章节包含回归分析、逻辑回归等。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q2",
+        "type": "单选",
+        "question": "前者和后者之间存在真子集关系的是？",
+        "answer": "B：监督学习、机器学习。",
+        "placementReason": "考监督学习属于机器学习的子集。"
+      },
+      {
+        "source": "网络样例题 Q13",
+        "type": "单选",
+        "question": "不能对给定样本进行分类的是？",
+        "answer": "C：梯度下降算法。",
+        "placementReason": "梯度下降是优化方法，不是分类器。"
+      },
+      {
+        "source": "网络样例题 Q20",
+        "type": "单选",
+        "question": "分类器测试的作用是？",
+        "answer": "D：检验分类器的效果。",
+        "placementReason": "监督分类流程。"
+      },
+      {
+        "source": "网络样例题 Q51",
+        "type": "单选",
+        "question": "分类器构造和实施步骤描述错误的是？",
+        "answer": "C：在训练样本上执行分类模型生成预测结果。",
+        "placementReason": "预测评估应在测试集上做。"
+      },
+      {
+        "source": "网络样例题 Q53",
+        "type": "单选",
+        "question": "把样本所属类型和样本对应起来称为？",
+        "answer": "C：标注。",
+        "placementReason": "监督学习标签。"
+      }
+    ]
   },
   {
     "id": "ch5-03-unsupervised",
@@ -2112,7 +2601,50 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:34：什么是无监督学习，主要有哪些算法。",
+          "第4章基础课件:27-31：无监督学习通过数据本身统计特性学习分布和关系；常见算法包括聚类、降维和关联规则。",
+          "第5章无监督课件:14-15：重点包括 K-means 聚类、主成分分析、奇异值分解、特征人脸等降维思想。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q9",
+        "type": "单选",
+        "question": "寻找数据相似性并划分组的方法称为？",
+        "answer": "D：聚类。",
+        "placementReason": "聚类定义。"
+      },
+      {
+        "source": "网络样例题 Q11",
+        "type": "单选",
+        "question": "关联规则中置信度的含义是？",
+        "answer": "资料答案：C；概念校正更接近 D。",
+        "placementReason": "关联规则属于无监督补充。",
+        "options": "该网络题疑似把支持度/置信度混淆；考试若考标准定义，置信度是 P(后项|前项)。"
+      },
+      {
+        "source": "网络样例题 Q43",
+        "type": "单选",
+        "question": "有特征、无标签的机器学习是？",
+        "answer": "C：无监督学习。",
+        "placementReason": "无监督定义。"
+      },
+      {
+        "source": "网络样例题 Q61",
+        "type": "单选",
+        "question": "无监督学习可完成什么任务？",
+        "answer": "C：聚类。",
+        "placementReason": "无监督学习任务。"
+      }
+    ]
   },
   {
     "id": "ch5-04-similarity",
@@ -2215,7 +2747,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:35：机器学习中，相似性度量有哪些，能否写出其计算公式（包括变量含义）。",
+          "第4章基础课件:95-118：相似性的度量；两个向量距离越近越相似；曼哈顿、切比雪夫、汉明、Jaccard 等。",
+          "第4章基础课件:153-162：相关系数衡量线性相关性；马氏距离。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q12",
+        "type": "单选",
+        "question": "哪个方法不是用于计算相似度？",
+        "answer": "C：均方根误差 RMSE。",
+        "placementReason": "相似度公式考点。"
+      }
+    ]
   },
   {
     "id": "ch5-05-loss-functions",
@@ -2318,7 +2871,35 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:36：机器学习中用到的损失函数主要哪些？",
+          "线性回归代码:5-9：计算 loss；通过 wx+b-y 得到差值；下一层输入值减去上一层输出值的差值叫 loss。",
+          "chap_6_3课件:16：梯度下降法主要用于训练过程中最小化损失函数。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q7",
+        "type": "单选",
+        "question": "期望风险和经验风险描述正确的是？",
+        "answer": "D：期望风险是真实分布期望损失，经验风险是训练样本平均损失。",
+        "placementReason": "考损失、风险和统计学习。"
+      },
+      {
+        "source": "网络样例题 Q14",
+        "type": "单选",
+        "question": "梯度下降法的目标是？",
+        "answer": "B：寻找损失函数的最小值。",
+        "placementReason": "损失和优化考点。"
+      }
+    ]
   },
   {
     "id": "ch5-06-under-over-fitting",
@@ -2419,7 +3000,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:37：什么是监督学习中的欠学习（拟合）和过学习（过拟合）如何避免。",
+          "第4章基础课件:180：数据补齐后要进行数据检验，以免因补齐造成数据过拟合。",
+          "chap_6_3课件:67：深度增加会带来训练不稳定，可能需要初始化策略和正则化技术。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch5-07-discriminative-generative",
@@ -2522,7 +3113,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:38：什么是机器学习中的判别式模型，什么是机器学习中的产生式模型？",
+          "第4章监督课件:9：监督学习章节包含生成学习模型。",
+          "第4章基础课件:147：多元统计算法包括朴素贝叶斯分析、回归分析、统计学习理论等。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q20",
+        "type": "判断",
+        "question": "GAN 中生成网络区别真伪，判别网络产生虚拟数据。",
+        "answer": "B：错误。",
+        "placementReason": "原文未显示答案；按概念判断：生成器产生数据，判别器辨别真伪。"
+      }
+    ]
   },
   {
     "id": "ch5-08-linear-regression",
@@ -2625,7 +3237,35 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:39：如果数据集 X 是 m 行 n 列，Y 是 m 行 1 列，分析 X 和 Y 是否存在线性关系，并通过线性回归求系数 w(n×1)。",
+          "线性回归代码:5-9：计算 loss；通过 wx+b-y 得到差值。",
+          "线性回归多元代码:1-37：多元线性回归的梯度下降法；计算梯度；存储 MSE。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q8",
+        "type": "单选",
+        "question": "线性回归描述不正确的是？",
+        "answer": "D：线性回归模型训练是非监督学习方法。",
+        "placementReason": "线性回归是监督学习。"
+      },
+      {
+        "source": "网络样例题 Q64",
+        "type": "计算/单选",
+        "question": "线性回归方程 y=0.849x-85.712，x=172 时预测体重？",
+        "answer": "B：约 60.316kg。",
+        "placementReason": "线性回归计算。"
+      }
+    ]
   },
   {
     "id": "ch5-09-kmeans",
@@ -2730,7 +3370,35 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:40：简述K-means聚类的算法步骤。",
+          "第5章K均值课件:3-15：K-means 聚类；重点：K-means 聚类、主成分分析等。",
+          "K均值代码：自定义 K 均值类和调用库实现传统 K 均值、K-means++、Batch K 均值。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q16",
+        "type": "单选",
+        "question": "关于聚类说法正确的是？",
+        "answer": "D：聚类质心就是各簇群特征的平均值。",
+        "placementReason": "K-means 中心更新。"
+      },
+      {
+        "source": "网络样例题 Q41",
+        "type": "单选",
+        "question": "K 均值聚类算法属于？",
+        "answer": "B：无监督学习。",
+        "placementReason": "K-means 考点。"
+      }
+    ]
   },
   {
     "id": "ch5-10-pca",
@@ -2835,7 +3503,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:41：简述主成分分析的算法步骤。",
+          "第5章PCA课件:2-9：降维可压缩特征、降低计算开销、去除噪声；主成分分析 PCA。",
+          "第5章PCA课件:14-20：PCA 的 scikit-learn 实现；components_ 返回具有最大方差的成分。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q10",
+        "type": "单选",
+        "question": "PCA 和特征人脸描述不正确的是？",
+        "answer": "D：原始 n*n 人脸图像，特征人脸维度是其一半。",
+        "placementReason": "考 PCA/特征脸降维，不是简单一半。"
+      }
+    ]
   },
   {
     "id": "ch5-11-logistic-regression",
@@ -2938,7 +3627,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:42：简述逻辑回归分析进行分类的步骤。",
+          "逻辑回归代码:17-19：sigmoid 将输入值 z 映射到 [0,1] 区间。",
+          "逻辑回归代码:65-66：预测概率经过 sigmoid；根据阈值 0.5 判断，大于 0.5 为 1，否则为 0。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch5-12-random-forest",
@@ -3042,7 +3741,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:43：简述应用随机森林进行数据分类的算法步骤。",
+          "提升算法课件:11-20：Bagging 通过 bootstrap 采样训练多个弱模型，分类投票；随机森林是代表性 Bagging 算法。",
+          "随机森林代码:6-35：RandomForestClassifier；fit 训练；predict 测试；accuracy_score 评估。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch6-01-neuron-fnn-bp-activations",
@@ -3146,7 +3855,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:45-46：神经元，前馈神经网络和BP神经网络的概念；常用激活函数；Sigmoid函数的优点。",
+          "chap_6_1课件:16-18：前馈神经网络第一层输入、最后一层输出；多个隐藏层称为深度神经网络；各层后接非线性激活函数。",
+          "chap_6_3课件:63：使用反向传播算法和梯度下降优化算法更新权重。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch6-02-bp-calculation",
@@ -3250,7 +3969,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:47：前馈神经网络误差反向传递的计算方法，做到会计算。",
+          "chap_6_3课件:8-16：梯度下降法利用负梯度方向迭代，使目标函数值逐步减小；用于最小化损失函数。",
+          "chap_6_3课件:63：通过计算损失函数关于权重的梯度，使用梯度下降更新权重。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q47",
+        "type": "单选",
+        "question": "BP 算法的直接作用是？",
+        "answer": "B：加快/训练权值参数和偏置参数。",
+        "placementReason": "BP 用于训练参数。"
+      }
+    ]
   },
   {
     "id": "ch6-03-dnn-cnn-params",
@@ -3354,7 +4094,64 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:48：简述深度神经网络和卷积神经网络的概念和对比；CNN 要学习的参数包括哪些。",
+          "chap_6_1课件:8-10：深度学习模型结构含有更多层次，强调特征学习。",
+          "chap_6_4课件:38-40：1×1 卷积对通道加权求和，可降维或升维并减少参数和计算成本。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q11",
+        "type": "单选",
+        "question": "CNN 相比前馈网络还需要自动优化的参数是？",
+        "answer": "C：卷积矩阵（卷积核）。",
+        "placementReason": "考 CNN 可学习参数。"
+      },
+      {
+        "source": "网络样例题 Q18",
+        "type": "单选",
+        "question": "深度学习可以具有几个隐藏层？",
+        "answer": "资料答案：B。",
+        "placementReason": "放在深度网络层数考点。",
+        "options": "网络题表述较旧；本课课件强调深度模型有更多层，通常多个隐藏层。"
+      },
+      {
+        "source": "网络样例题 Q19",
+        "type": "单选",
+        "question": "CNN 中用来完成分类的是？",
+        "answer": "C：全连接层。",
+        "placementReason": "CNN 结构补充。"
+      },
+      {
+        "source": "网络样例题 Q21",
+        "type": "单选",
+        "question": "深度神经网络与基本神经网络区别是？",
+        "answer": "C：隐含层个数不同。",
+        "placementReason": "DNN 层数考点。"
+      },
+      {
+        "source": "网络样例题 Q44",
+        "type": "单选",
+        "question": "何种情况下神经网络被称为深度学习模型？",
+        "answer": "A：加入更多层，使网络层数增加。",
+        "placementReason": "深度网络层数。"
+      },
+      {
+        "source": "网络样例题 Q54",
+        "type": "单选",
+        "question": "图像识别成功率提升的主要因素有？",
+        "answer": "A：计算力提升。",
+        "placementReason": "深度学习发展条件补充。"
+      }
+    ]
   },
   {
     "id": "ch6-04-conv-layer",
@@ -3457,7 +4254,42 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:49：卷积神经网络中卷积层的作用是什么，常用的卷积层卷积核大小。",
+          "chap_6_4课件:4-9：一维卷积计算；卷积核从左往右滑动，每移动一步作数乘求和。",
+          "chap_6_4课件:23-32：二维卷积 Python 实现；convolve2d 和 tf.nn.conv2d，padding='VALID'。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q12",
+        "type": "单选",
+        "question": "卷积操作描述不正确的是？",
+        "answer": "A：卷积矩阵参数手工事先指定且图像间不共享。",
+        "placementReason": "卷积核参数由训练学习且权值共享。"
+      },
+      {
+        "source": "网络样例题 Q7",
+        "type": "单选",
+        "question": "卷积神经网络的主要特点是具有？",
+        "answer": "C：卷积操作。",
+        "placementReason": "CNN 卷积层核心。"
+      },
+      {
+        "source": "网络样例题 Q22",
+        "type": "单选",
+        "question": "关于卷积层说法错误的是？",
+        "answer": "B：卷积核参数值是人为指定的。",
+        "placementReason": "卷积核参数是学习得到。"
+      }
+    ]
   },
   {
     "id": "ch6-05-pooling",
@@ -3557,7 +4389,27 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:50：卷积神经网络中池化层的作用是什么，常用的池化有哪些。",
+          "chap_6_4课件：CNN 结构中卷积和池化配合使用以提取和压缩特征。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q48",
+        "type": "单选",
+        "question": "池化层的作用不包括？",
+        "answer": "D：实现特征分类。",
+        "placementReason": "池化不负责分类。"
+      }
+    ]
   },
   {
     "id": "ch6-06-valid-output",
@@ -3660,7 +4512,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:51：卷积模式为 valid 时，卷积层输出的特征图维度如何判断。",
+          "chap_6_4课件:20：valid 计算结果长度与 max(M,N)-min(M,N)+1 相同。",
+          "chap_6_4课件:31-32：convolve2d mode='valid'；tf.nn.conv2d padding='VALID'。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch7-01-rl-vs-ml",
@@ -3765,7 +4627,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:53：参考第7章第一个ppt第5页，理解强化学习和其他机器学习的对比。",
+          "chap_7_1课件:2-4：强化学习讨论智能体如何在复杂、不确定环境中最大化奖励；目标是找到策略，使状态下行为最大化预期累积奖励。",
+          "第4章基础课件:33：强化学习与环境交互，通过试错方式学习最优策略。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch7-02-mdp",
@@ -3866,7 +4738,16 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:54：简述什么是马尔可夫决策过程，描述一个 MDP 的要素有哪5个。",
+          "chap_7_1课件:6-12：马尔可夫性质；当前状态到未来状态的转移概率基于当前状态而不是历史状态；状态、动作、奖励可映射为马尔可夫链。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch7-03-value-functions",
@@ -3968,7 +4849,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:55：马尔可夫决策过程中，对决策进行评估的函数是哪两种。",
+          "chap_7_1课件:14-16：强化学习问题中可用状态概率向量、动作概率向量等量描述问题。",
+          "chap_7_2策略评估课件：策略优化与策略评估内容包含价值评估思想。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q13",
+        "type": "单选",
+        "question": "强化学习中如何得到最优策略？",
+        "answer": "A：每步选择使未来反馈期望最大的动作。",
+        "placementReason": "考长期期望回报，不是即时奖励。"
+      }
+    ]
   },
   {
     "id": "ch7-04-rl-methods",
@@ -4070,7 +4972,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:56：强化学习的求解方法有哪三种，列出其中基于价值的求解方法。",
+          "chap_7_2策略评估课件：策略优化与策略评估包含 DP、MC、TD 等评估方法。",
+          "chap_7_3 Q-learning课件：强化学习求解 Q-Learning。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch7-05-exploration-epsilon",
@@ -4173,7 +5085,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:57：强化学习中利用和探索的平衡目的和意义？什么是 epselo-贪心策略。",
+          "chap_7_3 Q-learning课件：Q-learning 求解中包含探索、利用和 epsilon 贪心策略。",
+          "chap_7_1课件:3-4：强化学习目标是在不确定环境中最大化预期累积奖励。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch8-01-ai-security-apps",
@@ -4275,7 +5197,17 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:59：人工智能在信息安全中的应用方式。",
+          "chap_8_1课件:4-10：基于人工智能的信息安全技术：加密协议；GAN 生成加密算法。",
+          "chap_8_1课件:13：基于人工智能的信息安全技术：数字水印。"
+        ]
+      }
+    ]
   },
   {
     "id": "ch8-02-ai-attacks-defenses",
@@ -4380,7 +5312,28 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:60：人工智能中模型的攻击方式，以及防御攻击的测试方法。",
+          "chap_8_1课件:20-36：人工智能的安全：数据安全与模型安全；模型是否易受噪声干扰或攻击；模型是否正确、能否应用现实场景。",
+          "chap_8_1课件：课件包含对抗样本、白盒/黑盒、定向/非定向、对抗训练和防御方法。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q60",
+        "type": "单选",
+        "question": "AI 研发和应用政策应把什么置于核心？",
+        "answer": "B：人。",
+        "placementReason": "AI 安全/伦理补充。"
+      }
+    ]
   },
   {
     "id": "ch8-03-ai-applications",
@@ -4492,7 +5445,518 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点:61：人工智能的应用：分类，聚类，回归。",
+          "第4章基础课件:76：机器学习通过矩阵等运算完成分类、聚类和回归等。",
+          "chap_8_2课件:9-15：计算机视觉应用包括图像分类、目标检测、语义分割、实例分割。",
+          "chap_8_3课件:169-182：文本分类与聚类；文本分类分配预定义类别，文本聚类按相似度划分子集。"
+        ]
+      },
+      {
+        "title": "课件关键词：CV 与 NLP 应用",
+        "points": [
+          "计算机视觉：图像分类回答 what，目标检测回答 what & where，分割回答像素级 what & where。",
+          "NLP：文本分类把文档分到预定义类别，文本聚类按内容相似度自动分组。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q2",
+        "type": "单选",
+        "question": "不属于自然语言处理核心环节的是？",
+        "answer": "D：语音语义识别。",
+        "placementReason": "放在 NLP 应用考点。"
+      },
+      {
+        "source": "网络样例题 Q4",
+        "type": "单选",
+        "question": "哪种神经网络更适合自然语言处理？",
+        "answer": "B：RNN。",
+        "placementReason": "放在 NLP/RNN 内容下。"
+      },
+      {
+        "source": "网络样例题 Q17",
+        "type": "单选",
+        "question": "买《机器学习》后平台可能推荐哪本书？",
+        "answer": "A：《人工智能》。",
+        "placementReason": "推荐系统应用，基于相似性/关联。"
+      },
+      {
+        "source": "网络样例题 Q18b",
+        "type": "单选",
+        "question": "两种以上的分类问题称为？",
+        "answer": "B：多分类。",
+        "placementReason": "分类应用。"
+      },
+      {
+        "source": "网络样例题 Q52",
+        "type": "单选",
+        "question": "不属于家中 AI 产品的是？",
+        "answer": "C：声控灯。",
+        "placementReason": "AI 应用辨析。"
+      },
+      {
+        "source": "网络样例题 Q62",
+        "type": "单选",
+        "question": "以下哪个不是图像基本运算？",
+        "answer": "B：块运算。",
+        "placementReason": "计算机视觉应用补充。"
+      },
+      {
+        "source": "网络样例题 Q65",
+        "type": "单选",
+        "question": "计算机显示器使用的颜色模型是？",
+        "answer": "D：RGB。",
+        "placementReason": "CV 基础补充；原文未显示答案，按常识判断。"
+      },
+      {
+        "source": "网络样例题 Q67",
+        "type": "单选",
+        "question": "OpenCV 主要应用领域是？",
+        "answer": "A：计算机视觉和机器学习。",
+        "placementReason": "CV 工具补充。"
+      }
+    ]
+  },
+  {
+    "id": "ch3-04-mcts",
+    "status": "ready",
+    "chapter": "第三章",
+    "order": "16.1",
+    "title": "蒙特卡洛树搜索 MCTS（样例题补充）",
+    "subtitle": "样例题明确考 MCTS：采样搜索，不是穷举。",
+    "sourceEvidence": [
+      {
+        "ref": "第3章 蒙特卡洛搜索.pptx",
+        "quote": "MCTS 与 AlphaGo 相关，包含选择、扩展、模拟、反向传播。"
+      },
+      {
+        "ref": "浙大样例题 Q6",
+        "quote": "MCTS 不是穷举式枚举搜索。"
+      }
+    ],
+    "intent": [
+      "样例题直接出现 MCTS，因此单独补成考点，放在搜索章节 Alpha-Beta 后。",
+      "要记住四步和“基于采样而非穷举”。"
+    ],
+    "learning": [
+      {
+        "heading": "MCTS 是什么",
+        "body": [
+          "蒙特卡洛树搜索通过多次采样模拟来估计节点价值，适合围棋这类搜索空间巨大、不能完全穷举的问题。"
+        ],
+        "bullets": [
+          "基于采样。",
+          "用于博弈树。",
+          "有限时间内把搜索集中到更有希望的分支。"
+        ]
+      },
+      {
+        "heading": "四个步骤",
+        "body": [
+          "Selection 选择、Expansion 扩展、Simulation 模拟、Backpropagation 回传。模拟结果会更新路径上节点的访问次数和胜率。"
+        ],
+        "bullets": [
+          "选择。",
+          "扩展。",
+          "模拟。",
+          "回传。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "选择题",
+        "question": "MCTS 描述不正确的是“穷举式枚举搜索”。",
+        "answer": "正确，它是基于采样的搜索。"
+      }
+    ],
+    "traps": [
+      "不要把 MCTS 当成 BFS/DFS 穷举。",
+      "四步中最后一步是回传，不是反向传播神经网络梯度。"
+    ],
+    "answers": [
+      {
+        "title": "MCTS 模板",
+        "text": "MCTS 是基于随机采样和模拟的博弈树搜索方法，典型步骤为选择、扩展、模拟和回传；它不是穷举搜索，而是在有限计算量下估计各行动价值。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "MCTS 是否是穷举式搜索？",
+        "options": [
+          "不是，是采样搜索",
+          "是，必须枚举所有叶子",
+          "只是一种排序算法"
+        ],
+        "correct": 0,
+        "explain": "MCTS 通过采样模拟估计价值，不穷举全部状态。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第二轮精修新增：根据 PPT 与样例题补充到正确考点。"
+    },
+    "pptDeepDive": [
+      {
+        "title": "课件关键词：MCTS 四步",
+        "points": [
+          "选择 Selection：沿树选择最值得探索的节点。",
+          "扩展 Expansion：添加新子节点。",
+          "模拟 Simulation：从新节点模拟到终局。",
+          "回传 Backpropagation：把胜负结果更新到路径节点。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q6",
+        "type": "单选",
+        "question": "MCTS 描述不正确的是？",
+        "answer": "B：是一种穷举式枚举的搜索方法。",
+        "placementReason": "MCTS 是采样搜索，不是穷举。"
+      }
+    ]
+  },
+  {
+    "id": "ch3-05-game-nash",
+    "status": "ready",
+    "chapter": "第三章",
+    "order": "16.2",
+    "title": "博弈论与纳什均衡（样例题补充）",
+    "subtitle": "放在对抗搜索之后，用来处理样例题中的纳什均衡。",
+    "sourceEvidence": [
+      {
+        "ref": "浙大样例题 Q14",
+        "quote": "纳什均衡不一定是最优局势；纳什均衡是一种稳定局势。"
+      },
+      {
+        "ref": "第3章 对抗搜索课件",
+        "quote": "对抗搜索研究竞争环境中一方最大化、另一方最小化的问题。"
+      }
+    ],
+    "intent": [
+      "纳什均衡不是复习要点主线，但样例题出现，所以放在对抗搜索之后。",
+      "需要掌握：稳定不等于全局最优。"
+    ],
+    "learning": [
+      {
+        "heading": "纳什均衡",
+        "body": [
+          "纳什均衡指在其他参与者策略不变时，任何一方单独改变策略都不能获得更好收益，因此它是一种稳定局势。"
+        ],
+        "bullets": [
+          "稳定。",
+          "单方无动机改变。",
+          "不等于整体最优。"
+        ]
+      },
+      {
+        "heading": "和对抗搜索的关系",
+        "body": [
+          "对抗搜索假设对手理性选择对我不利的行动；博弈论也研究多方策略互动，但纳什均衡强调稳定策略组合。"
+        ],
+        "bullets": [
+          "都研究多智能体。",
+          "对抗搜索常用于零和博弈。",
+          "纳什均衡可用于非零和博弈。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "判断题",
+        "question": "“纳什均衡一定是最优局势”是否正确？",
+        "answer": "错误。纳什均衡是稳定局势，不一定最优。"
+      }
+    ],
+    "traps": [
+      "不要把稳定局势等同于最优局势。",
+      "囚徒困境中的纳什均衡体现了个体稳定但整体未必最好。"
+    ],
+    "answers": [
+      {
+        "title": "纳什均衡模板",
+        "text": "纳什均衡是一个稳定策略组合：在其他参与者策略不变时，任何一方单独改变策略都不能获得更好收益；它不一定是整体最优局势。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "纳什均衡一定最优吗？",
+        "options": [
+          "不一定",
+          "一定",
+          "只在 CNN 中成立"
+        ],
+        "correct": 0,
+        "explain": "样例题明确把“一定最优”作为错误说法。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第二轮精修新增：根据 PPT 与样例题补充到正确考点。"
+    },
+    "pptDeepDive": [
+      {
+        "title": "样例题补充严格口径",
+        "points": [
+          "纳什均衡是一种稳定局势。",
+          "纳什均衡不一定是最优局势。",
+          "该题放在对抗搜索之后，因为它属于博弈策略互动补充。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q14",
+        "type": "单选",
+        "question": "博弈论和纳什均衡描述不正确的是？",
+        "answer": "B：纳什均衡是一种最优局势。",
+        "placementReason": "纳什均衡是稳定局势，不一定最优。"
+      }
+    ]
+  },
+  {
+    "id": "ch5-13-bagging-boosting",
+    "status": "ready",
+    "chapter": "第五章",
+    "order": "30.1",
+    "title": "Bagging、Boosting 与 AdaBoost（样例题补充）",
+    "subtitle": "样例题多次考 Boosting/AdaBoost，补到机器学习章节。",
+    "sourceEvidence": [
+      {
+        "ref": "第4章_机器学习-统计学习_3_提升算法.pptx:11-20",
+        "quote": "Bagging 使用 bootstrap 采样并投票/平均；Boosting 调整错分样本权重，串行生成弱模型；随机森林是代表性 Bagging。"
+      },
+      {
+        "ref": "浙大样例题 Q9/Q18",
+        "quote": "Boosting 与 AdaBoost 权重调整是样例题重点。"
+      }
+    ],
+    "intent": [
+      "虽然复习要点没有单列 Boosting，但老师样例题明确考到，必须放进机器学习章节。",
+      "和随机森林同属集成学习，但机制不同。"
+    ],
+    "learning": [
+      {
+        "heading": "Bagging",
+        "body": [
+          "Bagging 通过 bootstrap 有放回采样得到多个训练子集，分别训练多个弱模型，分类时投票、回归时平均。随机森林是典型 Bagging。"
+        ],
+        "bullets": [
+          "并行。",
+          "降低方差。",
+          "样本随机。"
+        ]
+      },
+      {
+        "heading": "Boosting",
+        "body": [
+          "Boosting 串行训练弱模型，后一个模型更关注前面分错的样本，最后把多个弱模型加权组合为强模型。"
+        ],
+        "bullets": [
+          "串行。",
+          "关注错分样本。",
+          "弱模型加权组合。"
+        ]
+      },
+      {
+        "heading": "AdaBoost",
+        "body": [
+          "AdaBoost 中错分样本权重增加，正确样本权重降低；表现更好的弱分类器在最终投票中权重更大。"
+        ],
+        "bullets": [
+          "错分样本权重增加。",
+          "弱分类器权重由错误率决定。",
+          "不是每轮都随便改每个弱分类器权重。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "判断题",
+        "question": "错分样本权重减少、正确样本权重增加。",
+        "answer": "错误，AdaBoost 正好相反。"
+      }
+    ],
+    "traps": [
+      "Bagging 并行，Boosting 串行。",
+      "AdaBoost 增加错分样本权重。",
+      "随机森林是 Bagging，不是 Boosting。"
+    ],
+    "answers": [
+      {
+        "title": "集成学习模板",
+        "text": "Bagging 通过 bootstrap 采样训练多个相对独立模型并投票/平均，代表是随机森林；Boosting 串行训练弱模型，使后续模型关注错分样本，最终加权组合，AdaBoost 是典型 Boosting。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "AdaBoost 中错分样本权重如何变化？",
+        "options": [
+          "增加",
+          "减少",
+          "固定为 0"
+        ],
+        "correct": 0,
+        "explain": "错分样本会被后续弱分类器重点关注。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第二轮精修新增：根据 PPT 与样例题补充到正确考点。"
+    },
+    "pptDeepDive": [
+      {
+        "title": "课件关键词：Bagging 与 Boosting 对比",
+        "points": [
+          "Bagging 弱模型不存在强依赖关系，可并行生成。",
+          "Boosting 弱模型有强依赖关系，串行生成。",
+          "随机森林是最有代表性的 Bagging 算法。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q9",
+        "type": "单选",
+        "question": "Boosting 描述不正确的是？",
+        "answer": "D：每一轮迭代均会更改每个弱分类器的权重。",
+        "placementReason": "考 Boosting/AdaBoost 权重机制。"
+      },
+      {
+        "source": "浙大样例题 Q18",
+        "type": "判断",
+        "question": "AdaBoost 中当前弱分类器分错样本则减少该样本权重，否则增大权重。",
+        "answer": "B：错误。",
+        "placementReason": "错分样本权重应增加。"
+      }
+    ]
+  },
+  {
+    "id": "ch5-14-svm-supplement",
+    "status": "ready",
+    "chapter": "第五章",
+    "order": "30.2",
+    "title": "SVM 支持向量机（样例题补充）",
+    "subtitle": "网络样例题考 SVM 最优分界面，由支持向量决定。",
+    "sourceEvidence": [
+      {
+        "ref": "机器学习算法-3-支持向量机.pptx",
+        "quote": "SVM 通过最大化分类间隔寻找最优超平面，支持向量决定分界面。"
+      },
+      {
+        "ref": "网络样例题 Q49",
+        "quote": "SVM 的最优分界面由支持向量决定。"
+      }
+    ],
+    "intent": [
+      "SVM 不在复习要点主列表中，但补充题出现，必须放到监督学习算法附近。",
+      "最需要记住“最大间隔”和“支持向量”。"
+    ],
+    "learning": [
+      {
+        "heading": "SVM 思想",
+        "body": [
+          "SVM 寻找能分开类别且间隔最大的超平面。离分界面最近的关键样本叫支持向量，它们决定最优分界面。"
+        ],
+        "bullets": [
+          "最大间隔。",
+          "支持向量。",
+          "分类超平面。"
+        ]
+      },
+      {
+        "heading": "软间隔和核技巧",
+        "body": [
+          "数据不可完全线性可分时，软间隔允许少量误分类；核技巧可把数据映射到高维空间处理非线性边界。"
+        ],
+        "bullets": [
+          "软间隔。",
+          "惩罚参数 C。",
+          "核函数。"
+        ]
+      }
+    ],
+    "exam": [
+      {
+        "type": "选择题",
+        "question": "SVM 的最优分界面由什么决定？",
+        "answer": "支持向量。"
+      }
+    ],
+    "traps": [
+      "不是所有样本都决定分界面，关键是支持向量。",
+      "SVM 是监督学习分类算法。"
+    ],
+    "answers": [
+      {
+        "title": "SVM 模板",
+        "text": "SVM 是监督学习分类算法，通过寻找最大间隔超平面进行分类，离超平面最近并决定间隔的样本称为支持向量，最优分界面主要由支持向量决定。"
+      }
+    ],
+    "quiz": [
+      {
+        "question": "SVM 最优分界面主要由什么决定？",
+        "options": [
+          "支持向量",
+          "所有样本平均值",
+          "PCA 主成分"
+        ],
+        "correct": 0,
+        "explain": "支持向量是离边界最近的关键样本。"
+      }
+    ],
+    "review": {
+      "sourceChecked": true,
+      "teachesFromScratch": true,
+      "examAligned": true,
+      "selfReviewed": true,
+      "reviewNote": "第二轮精修新增：根据 PPT 与样例题补充到正确考点。"
+    },
+    "pptDeepDive": [
+      {
+        "title": "SVM 课件/补充题严格口径",
+        "points": [
+          "SVM 寻找最大间隔分类超平面。",
+          "支持向量是离超平面最近并决定间隔的关键样本。",
+          "网络样例题答案：最优分界面由支持向量决定。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "网络样例题 Q49",
+        "type": "单选",
+        "question": "SVM 的最优分界面由什么决定？",
+        "answer": "A：支持向量。",
+        "placementReason": "SVM 补充考点。"
+      }
+    ]
   },
   {
     "id": "final-review-map",
@@ -4582,6 +6046,41 @@ window.LESSONS = [
       "examAligned": true,
       "selfReviewed": true,
       "reviewNote": "已按复习要点和课件提取资料核对：包含课件证据、学习解释、考法、易错点、标准答案和自测。"
-    }
+    },
+    "pptDeepDive": [
+      {
+        "title": "本考点课件/资料摘录再核对",
+        "points": [
+          "复习要点全文：本清单按复习要点第1章到第8章逐条展开。",
+          "站点 review 字段：每个考点对象都标记 sourceChecked、teachesFromScratch、examAligned、selfReviewed。"
+        ]
+      }
+    ],
+    "supplementItems": [],
+    "imageSupplements": [],
+    "practiceItems": [
+      {
+        "source": "浙大样例题 Q16",
+        "type": "多选",
+        "question": "机器学习算法中哪些需要事先指定参数或信息？",
+        "answer": "A、B、D。",
+        "placementReason": "跨考点综合题，放在总复习，同时相关点已分散补到 CNN、AdaBoost、K-means。"
+      },
+      {
+        "source": "浙大样例题 Q17",
+        "type": "多选",
+        "question": "从研究范畴来说，哪些说法正确？",
+        "answer": "A、B、C、D。",
+        "placementReason": "跨章节层级关系综合题，放在总复习。"
+      },
+      {
+        "source": "网络样例题 Q68",
+        "type": "截断题",
+        "question": "原文只剩“初始化采...”且题干不完整。",
+        "answer": "无法可靠作答。",
+        "placementReason": "题目截断，放在总复习说明未纳入考核答案。",
+        "options": "原始提取文本不完整，避免编造。"
+      }
+    ]
   }
 ];

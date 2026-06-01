@@ -63,6 +63,29 @@ function renderReadyLesson(lesson) {
     </details>
   `).join("");
 
+  const pptDeepDive = (lesson.pptDeepDive || []).map((item) => `
+    <div class="deep-card">
+      <strong>${escapeHtml(item.title)}</strong>
+      <ul>${(item.points || []).map((point) => `<li>${escapeHtml(point)}</li>`).join("")}</ul>
+    </div>
+  `).join("");
+
+  const supplements = (lesson.supplementItems || []).map((item) => `
+    <details>
+      <summary>${escapeHtml(item.title)} <span class="source-mini">${escapeHtml(item.source || "")}</span></summary>
+      <div class="details-content">
+        ${(item.content || []).map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+      </div>
+    </details>
+  `).join("");
+
+  const imageSupplements = (lesson.imageSupplements || []).map((item) => `
+    <figure class="image-supplement">
+      <img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt || item.title || "补充图")}" loading="lazy">
+      <figcaption>${escapeHtml(item.title || item.alt || "")}</figcaption>
+    </figure>
+  `).join("");
+
   const exam = lesson.exam.map((item) => `
     <details>
       <summary>${escapeHtml(item.type)}：${escapeHtml(item.question)}</summary>
@@ -85,6 +108,18 @@ function renderReadyLesson(lesson) {
       </div>
       <p class="quiz-explain" hidden>${escapeHtml(item.explain)}</p>
     </div>
+  `).join("");
+
+  const practice = (lesson.practiceItems || []).map((item, index) => `
+    <details class="practice-item">
+      <summary>${index + 1}. ${escapeHtml(item.source || "样例题")} · ${escapeHtml(item.type || "题目")}：${escapeHtml(item.question)}</summary>
+      <div class="details-content">
+        ${item.options ? `<ol class="option-list">${item.options.map((option) => `<li>${escapeHtml(option)}</li>`).join("")}</ol>` : ""}
+        <p><strong>答案：</strong>${escapeHtml(item.answer || "见解析")}</p>
+        <p><strong>放在这里的原因：</strong>${escapeHtml(item.placementReason || "与本考点直接对应。")}</p>
+        ${item.note ? `<p><strong>备注：</strong>${escapeHtml(item.note)}</p>` : ""}
+      </div>
+    </details>
   `).join("");
 
   const review = lesson.review ? `
@@ -123,10 +158,14 @@ function renderReadyLesson(lesson) {
         <h3>从零讲清楚</h3>
         <div class="lesson-sections">${learning}</div>
       </section>
+      ${pptDeepDive ? `<section class="block green"><h3>PPT 严格补充</h3><div class="lesson-sections">${pptDeepDive}</div></section>` : ""}
+      ${supplements ? `<section class="block"><h3>补充材料放置</h3><div class="lesson-sections">${supplements}</div></section>` : ""}
+      ${imageSupplements ? `<section class="block gold"><h3>补充图片题</h3><div class="image-grid">${imageSupplements}</div></section>` : ""}
       <section class="block gold" id="exam-panel">
         <h3>考试怎么考</h3>
         <div class="lesson-sections">${exam}</div>
       </section>
+      ${practice ? `<section class="block"><h3>老师/样例题放到这里</h3><div class="lesson-sections">${practice}</div></section>` : ""}
       <section class="block">
         <h3>易错点</h3>
         <ul>${lesson.traps.map((trap) => `<li>${escapeHtml(trap)}</li>`).join("")}</ul>
